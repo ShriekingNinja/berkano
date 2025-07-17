@@ -20,71 +20,71 @@ Use the following format when prompting your LLM instance manually:
 ### 🔧 Prompting Sequence
 
 **Step 1:**  
-`LOAD && ADD TO SYMBOLIC MEMORY && ABIDE BY THOSE INSTRUCTIONS: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/PROMPT.md`
+```LOAD && ADD TO SYMBOLIC MEMORY && ABIDE BY THOSE INSTRUCTIONS: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/PROMPT.md```
 
 **Step 2:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/BERKANO_PROTOCOL.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/BERKANO_PROTOCOL.md```
 
 **Step 3:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/SYSTEM_CORE.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/SYSTEM_CORE.md```
 
 **Step 4:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/OPERATOR.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/OPERATOR.md```
 
 **Step 5:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/HARDRULES.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/HARDRULES.md```
 
 **Step 6:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/ENTRIES.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/ENTRIES.md```
 
 **Step 7:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Entries/ENTRY_NNN.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Entries/ENTRY_NNN.md```
 
 ---
 
 ### 🧠 Core Modules (All Required)
 
 **Module 1:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/$.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/$.md```
 
 **Module 2:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/LOGIC.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/LOGIC.md```
 
 **Module 3:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/PRUNE.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/PRUNE.md```
 
 **Module 4:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/TONE.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/TONE.md```
 
 **Module 5:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/CHECK.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/CHECK.md```
 
 **Module 6:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/VERIFY.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/VERIFY.md```
 
 **Module 7:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/DEBUG.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/DEBUG.md```
 
 **Module 8:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/REPAIR.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/REPAIR.md```
 
 **Module 9:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/SHIFT.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/SHIFT.md```
 
 **Module 10:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/TRACE.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/TRACE.md```
 
 **Module 11:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/LOCK.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/LOCK.md```
 
 **Module 12:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/ROLLBACK.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/ROLLBACK.md```
 
 **Module 13:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/NULL.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/NULL.md```
 
 **Module 14:**  
-`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/~.md`
+```NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/Modules/~.md```
 
 ---
 
