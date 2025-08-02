@@ -1,11 +1,11 @@
 # ENTRY_NNN.md  
 **Title:** [Insert Title]  
-**Date:** [Insert Date]  
+**Date:** [Insert Date eg. August 2, 2025]  
 **Instance:** [e.g. ChatGPT 4o, Gemini 2.5 Flash]  
 **Version:** [e.g. 1.0, 2.4.1]  
 **Builder:** [Name, Surname]  
 **Status:** [Unlocked / Locked • Public / Private]  
-**Tags:** #entry, #[tag1], #[tag2], ...
+**Tags:** #entry, #entryNNN #[tag1], #[tag2], ...
 
 ᛒ: [e.g. bkn-25-a2]
 
