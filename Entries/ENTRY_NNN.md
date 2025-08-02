@@ -74,7 +74,7 @@ What structural weakness was exposed or reinforced?]
 ```
 [Paraphrased insight or setup]
 
-[Structured X post, less than 280 characters. Clean, readable, factual.]
+[Structured X post, less than 200 characters. Clean, readable, factual.]
 
 ᛒ  
 #tags…[X specific tags, eg. #AIAlignment]
