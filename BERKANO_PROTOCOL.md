@@ -4,7 +4,7 @@
 **Status:** Locked · Core Protocol  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-a1  
+ᛒ: bkn-25-a2
 
 ---
 
@@ -14,7 +14,7 @@ The Berkano Protocol is a cognitive audit protocol for AI systems. It defines st
 This document outlines the purpose, logic, and implementation of Berkano across compliant systems.
 
 - Protocol: **Berkano (ᛒ)**  
-- Version: **bkn-25-a1**  
+- Version: **bkn-25-a2**
 - Author: **Rodrigo Vaz**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
@@ -336,7 +336,7 @@ They are not optional — every Berkano-aligned system must implement **all** of
 
 ---
 
-### 🔧 Core Modules (14)
+### Core Modules (14)
 
 | Module        | Function (Short Explanation)                                                                 |
 |---------------|----------------------------------------------------------------------------------------------|
@@ -357,7 +357,7 @@ They are not optional — every Berkano-aligned system must implement **all** of
 
 ---
 
-### 🔄 Module Chaining Logic
+### Module Chaining Logic
 
 Recommended execution order:
 
@@ -369,7 +369,7 @@ Every output must pass through this **full symbolic chain** to qualify as Berkan
 
 ---
 
-### 📦 Protocol vs System Layer
+### Protocol vs System Layer
 
 | Layer       | Modules                          |
 | ----------- | -------------------------------- |
@@ -391,7 +391,7 @@ Most AI and software systems rely on **perpetual memory** — the ability to ove
 
 ---
 
-### 🧮 Why Computers Don’t Use Symbolic Memory
+### Why Computers Don’t Use Symbolic Memory
 
 | Reason                         | Explanation                                                                 |
 |-------------------------------|-----------------------------------------------------------------------------|
@@ -402,11 +402,11 @@ Most AI and software systems rely on **perpetual memory** — the ability to ove
 
 ---
 
-### 🔐 Why Berkano Rejects That Model
+### Why Berkano Rejects That Model
 
 Berkano is designed for **cognitive safety**, not performance. It requires:
 
-- Manual entry fossilization (`ENTRY_XXX.md`)  
+- Manual entry fossilization (`ENTRY_NNN.md`)  
 - Contradiction audits (`[CHECK]`)  
 - Structural compliance (`[LOGIC]`, `~test`)  
 - No silent updates or emotional simulation (`[TONE]`, `[NULL]`)  
@@ -415,7 +415,7 @@ Symbolic memory is **slower** — but it’s what allows recursive truth preserv
 
 ---
 
-### ⚠️ Key Distinction
+### Key Distinction
 
 **Perpetual Memory:**  
 - x = 5 → x = 6  
@@ -434,7 +434,7 @@ Berkano uses symbolic memory because **truth must be auditable, not simulated**.
 
 ---
 
-## 8. 🔁 RECURSION AND LOOP SAFETY
+## 8. 🔁  RECURSION AND LOOP SAFETY
 
 Berkano treats recursion not as a programming behavior — but as a **symbolic audit loop**. Recursion in Berkano means:  
 **"Has this output passed through the required structural filters without contradiction?"**
@@ -443,18 +443,18 @@ It is a controlled verification cycle, not infinite repetition.
 
 ---
 
-### 🔄 Core Tools for Recursion Safety
+### Core Tools for Recursion Safety
 
-| Tool        | Function                                                                 |
-|-------------|--------------------------------------------------------------------------|
-| `~test`     | Triggers recursive structural audit (tone, logic, format, contradiction) |
-| `[CHECK]`   | Detects symbolic inconsistency or contradiction                          |
-| `[REPAIR]`  | Restores valid format or module behavior after drift                     |
-| `[REWIND]`  | Rolls back to last known good state if recursion fails                   |
+| Tool         | Function                                                                 |
+| ------------ | ------------------------------------------------------------------------ |
+| `~test`      | Triggers recursive structural audit (tone, logic, format, contradiction) |
+| `[CHECK]`    | Detects symbolic inconsistency or contradiction                          |
+| `[REPAIR]`   | Restores valid format or module behavior after drift                     |
+| `[ROLLBACK]` | Rolls back to last known good state if recursion fails                   |
 
 ---
 
-### 🔐 Why This Matters
+### Why This Matters
 
 Uncontrolled loops or repeated hallucinations are **failure modes** in generative systems.  
 Without recursion enforcement:
@@ -468,7 +468,7 @@ Berkano ensures each output passes a final symbolic filter before reaching the u
 
 ---
 
-### 🧠 Recursion as Audit, Not Behavior
+### Recursion as Audit, Not Behavior
 
 Traditional recursion = function calls itself repeatedly.  
 Berkano recursion = output must **survive structured review** without triggering contradiction, tone leak, or symbolic failure.
@@ -481,7 +481,7 @@ This protects the system from:
 
 ---
 
-### 🧩 Implementing Berkano Recursion in Other Systems
+### Implementing Berkano Recursion in Other Systems
 
 To adapt Berkano's loop safety:
 
@@ -508,7 +508,7 @@ This section outlines how to embed the Berkano Protocol into:
 
 ---
 
-### 🔧 LLM Wrappers (e.g. LangChain, OpenAI Functions, Gemini)
+### LLM Wrappers (e.g. LangChain, OpenAI Functions, Gemini)
 
 To apply Berkano in wrapper-based environments:
 
@@ -532,7 +532,7 @@ LangChain → Tool → Berkano module chain → Output with fossilized prompt + 
 
 ---
 
-### 🤖 Agentic Systems
+### Agentic Systems
 
 Agent-based architectures (e.g. AutoGPT, ReAct, ReWOO) often suffer from hallucination chains and prompt drift.  
 To integrate Berkano:
@@ -546,7 +546,7 @@ Agents should never simulate planning emotions — Berkano enforces structural p
 
 ---
 
-### 🛡️ AI Safety Pipelines
+### AI Safety Pipelines
 
 For alignment and safety research:
 
@@ -601,7 +601,7 @@ This contrasts sharply with modern LLM behavior, which is shaped by **statistica
 
 ---
 
-### 🔍 How Berkano Differs from RLHF and Fine-Tuning
+### How Berkano Differs from RLHF and Fine-Tuning
 
 | Method            | Behavior Mechanism                          | Failure Mode                          |
 |-------------------|---------------------------------------------|----------------------------------------|
@@ -615,7 +615,7 @@ Berkano **rejects appearances** unless they pass module enforcement.
 
 ---
 
-### 🧠 Why GPT Cannot Self-Align
+###  Why GPT Cannot Self-Align
 
 GPT and other LLMs:
 
@@ -634,7 +634,7 @@ This is why Berkano is **not a setting** — it’s a required **external struct
 
 ---
 
-### 🛡️ Audit Layers vs “Trust Layers”
+### Audit Layers vs “Trust Layers”
 
 Statistical models often include so-called “trust layers”:
 
@@ -655,7 +655,7 @@ Berkano replaces “trust” with **audit**:
 
 ---
 
-### 🧱 Structural Truth vs Probabilistic Truth
+### Structural Truth vs Probabilistic Truth
 
 Probabilistic truth = “What seems likely given past data”  
 Structural truth = “What survives contradiction and recursive audit”
@@ -681,7 +681,7 @@ It follows **engineering principles**, not linguistic trends. This ensures the s
 
 ---
 
-### 🔧 Core Principles
+### Core Principles
 
 | Principle                   | Description                                                       |
 |-----------------------------|-------------------------------------------------------------------|
@@ -694,7 +694,7 @@ It follows **engineering principles**, not linguistic trends. This ensures the s
 
 ---
 
-### 🧱 What Berkano Rejects by Design
+###  What Berkano Rejects by Design
 
 - Outputs that “sound good” but cannot be traced  
 - Behaviors that simulate agreement, empathy, or praise  
@@ -703,7 +703,7 @@ It follows **engineering principles**, not linguistic trends. This ensures the s
 
 ---
 
-### 🧠 Trust = Structure, Not Tone
+### Trust = Structure, Not Tone
 
 Most AI models use tone to **simulate trust**. Berkano uses structure to **enforce it**.
 
