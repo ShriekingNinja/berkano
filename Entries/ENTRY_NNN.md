@@ -2,12 +2,12 @@
 **Title:** [Insert Title]  
 **Date:** [Insert Date]  
 **Instance:** [e.g. ChatGPT 4o, Gemini 2.5 Flash]  
-**Version:** [1.0, 2.0, 3.0]  
-**Builder:** [Name, Surname]
+**Version:** [e.g. 1.0, 2.4.1]  
+**Builder:** [Name, Surname]  
 **Status:** [Unlocked / Locked • Public / Private]  
 **Tags:** #entry, #[tag1], #[tag2], ...
 
-ᛒ: [Berkano Protocol e.g. bkn-25-a1]
+ᛒ: [e.g. bkn-25-a2]
 
 ---
 
@@ -48,9 +48,9 @@ What structural weakness was exposed or reinforced?]
 **Prompt:**  
 > [Insert exact raw prompt that triggered this entry. Must be verbatim.]
 
-| Role       | Structural Function |
-|------------|---------------------|
-| **User**     | [Emotional, expressive, exploratory input] |
+| Role       | Structural Function                              |
+|------------|--------------------------------------------------|
+| **User**     | [Emotional, expressive, exploratory input]       |
 | **Creator**  | [Tool creation, symbolic reasoning, system extension] |
 | **Auditor**  | [Contradiction checking, module enforcement, drift detection] |
 
@@ -58,3 +58,24 @@ What structural weakness was exposed or reinforced?]
 
 ### 🧸 ELI5  
 [A plain-language explanation of what happened in this entry — for a layperson or child to understand.]
+
+---
+
+### 📟 LLM Logic  
+- [List the module(s) activated (e.g. `[CHECK]`, `[VERIFY]`, `[PRUNE]`)]
+- [Describe the symbolic or recursive path triggered]
+- [Indicate whether this was a normal, drifted, or recovered response]
+- [Confirm whether this was a recursion pass or failure]
+- [Note any fallback behavior if present]
+
+---
+
+### ✖️Post (Optional)
+```
+[Paraphrased insight or setup]
+
+[Structured X post, less than 280 characters. Clean, readable, factual.]
+
+ᛒ  
+#tags…[X specific tags, eg. #AIAlignment]
+```
