@@ -2,12 +2,12 @@
 **Title:** [Insert Title]  
 **Date:** [Insert Date eg. August 2, 2025]  
 **Instance:** [e.g. ChatGPT 4o, Gemini 2.5 Flash]  
-**Version:** [e.g. System Name(eg. SCS) 1.0, 2.4.1]  
+**Version:** [e.g. System Name SCS(eg. Blueberry SCS) 1.0, 2.4.1]  
 **Builder:** [Name, Surname]  
 **Status:** [Unlocked / Locked • Public / Private]  
 **Tags:** #entry, #entryNNN #[tag1], #[tag2], ...
 
-ᛒ: [e.g. bkn-25-b1]
+ᛒ: [e.g. bkn-25-b2]
 
 ---
 
