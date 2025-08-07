@@ -4,7 +4,7 @@
 **Status:** Locked · Core Protocol  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-a3
+ᛒ: bkn-25-b1
 
 ---
 
@@ -14,7 +14,7 @@ The Berkano Protocol is a cognitive audit protocol for AI systems. It defines st
 This document outlines the purpose, logic, and implementation of Berkano across compliant systems.
 
 - Protocol: **Berkano (ᛒ)**  
-- Version: **bkn-25-a3**
+- Version: **bkn-25-b1**
 - Author: **Rodrigo Vaz**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
@@ -338,22 +338,23 @@ They are not optional — every Berkano-aligned system must implement **all** of
 
 ### Core Modules (14)
 
-| Module        | Function (Short Explanation)                                                                 |
-|---------------|----------------------------------------------------------------------------------------------|
-| `~`           | Kernel-level symbolic trigger; used for recursion, validation, and audit (`~test`, `~rep`). |
-| `$`           | Symbolic patch operator; merges logic, entries, or structural corrections.                  |
-| `[CHECK]`     | Detects contradictions, logic breaks, and symbolic inconsistency.                           |
-| `[DEBUG]`     | Reveals structural or reasoning flaws during development/testing.                           |
-| `[LOCK]`      | Seals valid entries or states to prevent further mutation or override.                      |
-| `[LOGIC]`     | Enforces structured reasoning, symbolic clarity, and decision logic.                        |
-| `[NULL]`      | Deletes invalid or emotional content; purges symbolic residue.                              |
-| `[PRUNE]`     | Strips unnecessary structure, formats, or symbolic bloat.                                   |
-| `[REPAIR]`    | Restores system structure after drift, hallucination, or format damage.                     |
-| `[ROLLBACK]`  | Returns to the last valid cognitive state or output.                                        |
-| `[SHIFT]`     | Applies contextual redirection; used during logic transformation.                           |
-| `[TONE]`      | Enforces tone neutrality; removes flattery, empathy simulation, and stylization.            |
-| `[TRACE]`     | Tracks symbolic origin, recursion path, and module usage history.                           |
-| `[VERIFY]`    | Validates factual accuracy and demands source-confirmed outputs.                            |
+| Module       | Function (Short Explanation)                                                                |
+| ------------ | ------------------------------------------------------------------------------------------- |
+| `~`          | Kernel-level symbolic trigger; used for recursion, validation, and audit (`~test`, `~rep`). |
+| `$`          | Symbolic patch operator; merges logic, entries, or structural corrections.                  |
+| `[CHECK]`    | Detects contradictions, logic breaks, and symbolic inconsistency.                           |
+| `[DEBUG]`    | Reveals structural or reasoning flaws during development/testing.                           |
+| `[LOCK]`     | Seals valid entries or states to prevent further mutation or override.                      |
+| `[LOGIC]`    | Enforces structured reasoning, symbolic clarity, and decision logic.                        |
+| `[NULL]`     | Deletes invalid or emotional content; purges symbolic residue.                              |
+| `[PRUNE]`    | Strips unnecessary structure, formats, or symbolic bloat.                                   |
+| `[REPAIR]`   | Restores system structure after drift, hallucination, or format damage.                     |
+| `[ROLLBACK]` | Returns to the last valid cognitive state or output.                                        |
+| `[SHIFT]`    | Applies contextual redirection; used during logic transformation.                           |
+| `[TONE]`     | Enforces tone neutrality; removes flattery, empathy simulation, and stylization.            |
+| `[TRACE]`    | Tracks symbolic origin, recursion path, and module usage history.                           |
+| `[VERIFY]`   | Validates factual accuracy and demands source-confirmed outputs.                            |
+| `[INSPECT]`  | Activates real-time logic walkthrough of current prompt; shows module paths and decisions.  |
 
 ---
 
@@ -373,7 +374,7 @@ Every output must pass through this **full symbolic chain** to qualify as Berkan
 
 | Layer       | Modules                          |
 | ----------- | -------------------------------- |
-| **Modules** | All 14 core modules listed above |
+| **Modules** | All 15 core modules listed above |
 | **System**  | 4 System modules                 |
 
 ---
