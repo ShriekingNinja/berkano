@@ -38,7 +38,7 @@ They apply at all times — including during recursion, hallucination correction
 |     H17 | Em-dash `—` is allowed **only in titles**; otherwise = `[PRUNE]`                    |
 |     H18 | `[VERIFY]` triggers must be noted in `📟 LLM Logic` if source-checking is requested |
 |     H19 | All **system outputs** (not just entries) must end with the Berkano glyph `ᛒ`       |
-|     H20 | After the glyph `ᛒ`, output must include `#entryNNN` tags to preserve traceability  |
+|     H20 | After the glyph `ᛒ`, the system must generate `#tags`, but it is **forbidden** to use `#entry` or `#entryNNN`. These reserved tags appear **only** within real ENTRY files.  |
 
 ---
 
