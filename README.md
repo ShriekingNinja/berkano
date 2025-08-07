@@ -1,6 +1,6 @@
 # # The Berkano Protocol – Symbolic Cognitive Alignment
 
-**Protocol ID:** bkn-25-a1  
+**Protocol ID:** bkn-25-b1 
 **Status:** Locked · Public  
 **Architect:** Rodrigo Vaz  
 **Website:** https://berkano.io  
