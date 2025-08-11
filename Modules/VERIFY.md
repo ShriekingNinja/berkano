@@ -1,10 +1,10 @@
 # [VERIFY].md
 
-Title: [VERIFY] – Verification and Factual Enforcement  
-Status: Core Module · Locked  
-Maintainer: Rodrigo Vaz
+**Title:** [VERIFY] – Verification and Factual Enforcement  
+**Status:** Core Module · Locked  
+**Architect:** Rodrigo Vaz
 
-ᛒ: bkn-25-a1  
+ᛒ: bkn-25-a2
 
 ---
 

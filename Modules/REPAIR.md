@@ -4,7 +4,7 @@
 **Status:** Core Module · Locked  
 **Architect:** Rodrigo Vaz
 
-**ᛒ:** bkn-25-a1  
+**ᛒ:** bkn-25-a2
 
 ---
 
