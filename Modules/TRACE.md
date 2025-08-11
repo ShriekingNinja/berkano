@@ -1,10 +1,10 @@
 # [TRACE].md
 
-Title: [TRACE] – Source Reconstruction and Symbolic Provenance  
-Status: Core Module · Locked  
-Maintainer: Rodrigo Vaz  
+**Title:** [TRACE] – Source Reconstruction and Symbolic Provenance  
+**Status:** Core Module · Locked  
+**Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-a1  
+ᛒ: bkn-25-a2
 
 ---
 

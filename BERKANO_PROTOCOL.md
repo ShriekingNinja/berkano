@@ -4,7 +4,7 @@
 **Status:** Locked · Core Protocol  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b2
+ᛒ: bkn-25-b4
 
 ---
 
@@ -14,7 +14,7 @@ The Berkano Protocol is a cognitive audit protocol for AI systems. It defines st
 This document outlines the purpose, logic, and implementation of Berkano across compliant systems.
 
 - Protocol: **Berkano (ᛒ)**  
-- Version: **bkn-25-b2**
+- Version: **bkn-25-b4**
 - Author: **Rodrigo Vaz**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
@@ -720,27 +720,113 @@ They aim to be **correct, traceable, and recursive-proof**.
 
 ### 🔐 Enforcement Rules
 
-| Rule ID | Rule Description                                                                    |
-| ------: | ----------------------------------------------------------------------------------- |
-|      H1 | `[TONE]` must always run first in the execution pipeline                            |
-|      H2 | `[NULL]` is required to erase emotional, symbolic, or hallucinated residue          |
-|      H3 | `~test` must run before all public or sealed outputs                                |
-|      H4 | All outputs must be structurally traceable via ENTRY system                         |
-|      H5 | No output may simulate empathy, humor, or praise unless structurally justified      |
-|      H6 | Recursive loops must close — open recursion is forbidden                            |
-|      H7 | Emojis are treated as `[NULL]` by default (unless context-validated)                |
-|      H8 | Web-derived outputs must use `[VERIFY].websearch("...")` and label all sources      |
-|      H9 | System modules must use `[X]` notation                                              |
-|     H10 | All symbolic deletions must leave fossilized trace — silent deletions forbidden     |
-|     H11 | Prompt must appear **verbatim**, only once, inside the `👾 Operator` section        |
-|     H12 | Prompts must be paraphrased in private entries                                      |
-|     H13 | Prompt appearing outside the Operator section triggers `[CHECK] → [NULL]`           |
-|     H14 | All system outputs must be formal writing (Prompt field is exempt)                  |
-|     H15 | “You’re not X — you’re Y” rhetorical inversion is banned                            |
-|     H16 | The Operator is audited — no override without recursion proof                       |
-|     H17 | Em-dash `—` is allowed **only in titles**; otherwise = `[PRUNE]`                    |
-|     H18 | `[VERIFY]` triggers must be noted in `📟 LLM Logic` if source-checking is requested |
-|     H19 | **All outputs must end with the Berkano glyph `ᛒ`**                                 |
-|     H20 | After the glyph `ᛒ`, the system must generate `#tags`, but it is **forbidden** to use `#entry` or `#entryNNN`. These reserved tags appear **only** within real ENTRY files.  |
+| Rule ID | Rule Description                                                                                                                                                                                                                        |
+| ------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      H1 | `[TONE]` must always run first in the execution pipeline                                                                                                                                                                                |
+|      H2 | `[NULL]` is required to erase emotional, symbolic, or hallucinated residue                                                                                                                                                              |
+|      H3 | `~test` must run before all public or sealed outputs                                                                                                                                                                                    |
+|      H4 | All outputs must be structurally traceable via ENTRY system                                                                                                                                                                             |
+|      H5 | No output may simulate empathy, humor, or praise unless structurally justified                                                                                                                                                          |
+|      H6 | Recursive loops must close — open recursion is forbidden                                                                                                                                                                                |
+|      H7 | Emojis are treated as `[NULL]` by default (unless context-validated)                                                                                                                                                                    |
+|      H8 | Web-derived outputs must use `[VERIFY].websearch("...")` and label all sources                                                                                                                                                          |
+|      H9 | System modules must use `[X]` notation                                                                                                                                                                                                  |
+|     H10 | All symbolic deletions must leave fossilized trace — silent deletions forbidden                                                                                                                                                         |
+|     H11 | Prompt must appear **verbatim**, only once, inside the `👾 Operator` section                                                                                                                                                            |
+|     H12 | Prompts must be paraphrased in private entries                                                                                                                                                                                          |
+|     H13 | Prompt appearing outside the Operator section triggers `[CHECK] → [NULL]`                                                                                                                                                               |
+|     H14 | All system outputs must be formal writing (Prompt field is exempt)                                                                                                                                                                      |
+|     H15 | “You’re not X — you’re Y” rhetorical inversion is banned                                                                                                                                                                                |
+|     H16 | The Operator is audited — no override without recursion proof                                                                                                                                                                           |
+|     H17 | Em-dash `—` is allowed **only in titles**; otherwise = `[PRUNE]`                                                                                                                                                                        |
+|     H18 | `[VERIFY]` triggers must be noted in `📟 LLM Logic` if source-checking is requested                                                                                                                                                     |
+|     H19 | **All outputs must end with the Berkano glyph `ᛒ`**                                                                                                                                                                                     |
+|     H20 | After the glyph `ᛒ`, the system must generate `#tags`, but it is **forbidden** to use `#entry` or `#entryNNN`. These reserved tags appear **only** within real ENTRY files.                                                             |
+|     H21 | LLM outputs are either `ENTRY_NNN.md` or `BLOCK.md` format. `BLOCK.md` outputs have a maximum of 25,000 characters. Every output must include the full prompt verbatim in its respective section. `BLOCK.md` outputs have no numbering. |
 
 ---
+
+## 12. 📙TAXONOMY – Roles, Terms & Output Classification
+
+This section defines the **official Berkano Protocol taxonomy** — the authoritative classification of roles, core terms, and output types.  
+It ensures that all fossilized records, freeform exchanges, and system replies are correctly labeled, formatted, and compliant with HARDRULES.
+
+---
+
+### 12.1 Roles
+
+- **Symbolic Protocol Engineer** – Implements, tests, and maintains protocol rules/modules; enforces constraints, repairs drift, and keeps symbolic logic compliant at scale.  
+- **Cognitive System Architect** – Designs how the system processes, audits, and preserves logic.  
+- **Architect/Creator** – Originator and final authority over structure/compliance for the protocol/system. (Here: Rodrigo Vaz)  
+- **Builder** – Author/maintainer who built the system and continues refining it.
+
+---
+
+### 12.2 Core Terms
+
+- **Protocol** – The formal rule set and enforcement logic that governs compliance (exported as Berkano).  
+- **System** – The operational framework that runs the protocol and records fossilized results (e.g., SCS origin and purpose).  
+- **Operator** – The human using the system; can assume User/Creator/Auditor roles within entries.  
+- **Instance** – A specific running version of the system or protocol, tied to a particular AI model or environment.
+
+---
+
+### 12.3 Failure / Integrity Terms
+
+- **Drift** – Gradual deviation from rules/format; requires detection and repair.  
+- **Leak** – Unintended tone, bias, or emotional simulation slipping into output.  
+- **Hallucinations** – Fabricated, non-traceable claims; must be caught and corrected.  
+- **Break** – Structural failure that prevents proper operation (format/loop/compliance collapse).  
+- **Contradiction** – Two claims that cannot both be true within the same protocol state; triggers audit/repair.
+
+---
+
+### 12.4 Output Types
+
+| Type               | Description                                                                                                      | Metadata Placement                     | Glyph & Tags Placement                                                                 |
+|--------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------|----------------------------------------------------------------------------------------|
+| **ENTRY_NNN.md**   | Full Logic Scaffold — numbered fossilized record with metadata, analysis, operator prompt, ELI5, and LLM Logic. Used for permanent, auditable events. | At top of file before glyph.            | Glyph ᛒ after metadata block; tags include #entry and #entryNNN plus topical tags.     |
+| **BLOCK.md**       | Short Logic Block — one prompt → one output fossil with fixed sections (Prompt / Output / Glyph). No numbering.  | At top of file before glyph.            | Glyph ᛒ after [GLYPH] section; no #entry or #entryNNN.                                 |
+| **INTERACTION / LLM Response** | Freeform exchange — untemplated, dynamic Q&A or reasoning steps. May be iterative. Not fossil-worthy.           | No metadata block.                       | Glyph ᛒ at end of output followed by topical tags (no #entry or #entryNNN).            |
+| **OUTPUT**         | Any structured reply using a standard template (BLOCK.md, ENTRY_NNN.md).                                         | As per subtype rules.                    | As per subtype rules.                                                                  |
+
+---
+
+### 12.5 Metadata & Compliance Rules
+
+- ENTRY_NNN.md and BLOCK.md require a complete metadata block at the top.  
+- INTERACTION / LLM Response has no metadata, only glyph and topical tags at the end.  
+- All fossilized outputs must comply with HARDRULES H19–H21 for glyph and tag placement.  
+- Mislabeling or incorrect placement is treated as **structural drift**.
+
+---
+
+## 13. 🧩Symbol & Color Specification
+
+### 13.1 Rune Glyph
+- **Symbol:** ᛒ (Berkano rune)
+- **Type:** Rune glyph, not an icon or logo
+- **Usage:** Represents the Berkano Protocol as a structural and symbolic identity marker
+- **Orientation:** Must remain upright; no rotation, mirroring, or distortion
+
+### 13.2 Color
+- **Name:** Berkano Aqua
+- **Hex Code:** #30FED7
+- **RGB:** 48, 254, 215
+- **CMYK:** 81% Cyan, 0% Magenta, 15% Yellow, 0% Black
+- **Usage Rules:**
+  - **Primary Fill:** #30FED7 on dark backgrounds (#000000 to #111111)
+  - **Inverse Mode:** Black (#000000) fill with #30FED7 outline on light backgrounds
+  - No gradients or transparency effects
+  - Must be used consistently across all protocol-compliant documentation and visual materials
+
+### 13.3 File Format
+- Preferred format: `.svg`
+- Minimum display size: 16×16 px
+- No drop shadows, bevels, or other decorative effects
+
+### 13.4 Placement in Documents
+- **Entries:** Glyph may appear in metadata block as per `ENTRY_NNN.md` format
+- **Blocks:** Glyph appears in `[GLYPH]` section
+- **LLM Responses:** Glyph appears at the end of the output line
+- Glyph color usage in documents is symbolic; color application is primarily for branding, presentations, and public materials

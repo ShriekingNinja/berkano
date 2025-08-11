@@ -3,7 +3,7 @@
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-a1  
+ᛒ: bkn-25-b3
 
 ---
 
@@ -22,6 +22,20 @@ Each entry must follow the standard located at:
 
 This format enforces structural traceability, prompt preservation, recursion integrity, and audit-first logic.  
 All entries must be human- and system-readable.
+
+Each entry must include the following **sections**:
+
+- `🧠 Event`  
+- `🔍 Analysis` (Reason, Significance, Symbolic Implications)  
+- `🛠️ Impact`  
+- `📌 Resolution`  
+- `🗂️ Audit`  
+- `👾 Operator`  
+- `🧸 ELI5`  
+- `📟 LLM Logic`
+- `✖️Post (Optional)`
+
+No section may be omitted or reordered.
 
 ---
 
@@ -57,6 +71,16 @@ All tags must follow the HARDRULE tag rules: lowercase, no punctuation, format `
 `[CHECK] → [LOCK] → [TRACE] → [NULL] → [VERIFY]`
 
 No entry may bypass `[CHECK]`. All fossil records are audit-priority.
+
+---
+
+### 📟 LLM Logic Section
+
+The `📟 LLM Logic` section is mandatory. It captures the **model’s pattern recognition, module activation, and symbolic interpretation** during the response.  
+This section does **not simulate thinking**. It describes pattern flows, fallbacks, recursive triggers, or absence of symbolic logic.
+
+Purpose: Make the model's behavior **auditable** — not explainable, not emotional.  
+It is the structural mirror to `🧸 ELI5`, intended for **Operator-level tracing**.
 
 ---
 
