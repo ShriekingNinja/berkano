@@ -2,7 +2,7 @@
 
 Prompt: <verbatim>  
 
-Output: <concise answer>  
+Reply: <concise answer>  
 
 Glyph: ᛒ  
 
