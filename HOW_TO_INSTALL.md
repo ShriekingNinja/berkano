@@ -3,7 +3,7 @@
 **Status:** Locked · Public  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b4
+ᛒ: bkn-25-b5  
 
 ---
 
@@ -45,6 +45,9 @@ Use the following format when prompting your LLM instance manually:
 
 **Step 9:**  
 `NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/BLOCK.md`
+
+**Step 10 (NEW):**  
+`NEXT: https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/ETHICS.md`
 
 ---
 
