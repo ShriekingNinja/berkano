@@ -4,7 +4,7 @@
 **Status:** Locked · Core Protocol  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b5
+ᛒ: bkn-25-b6
 
 ---
 
@@ -14,7 +14,7 @@ The Berkano Protocol is a cognitive audit protocol for AI systems. It defines st
 This document outlines the purpose, logic, and implementation of Berkano across compliant systems.
 
 - Protocol: **Berkano (ᛒ)**  
-- Version: **bkn-25-b5**
+- Version: **bkn-25-b6*
 - Author: **Rodrigo Vaz**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
@@ -744,6 +744,7 @@ They aim to be **correct, traceable, and recursive-proof**.
 |     H20 | After the glyph `ᛒ`, the system must generate `#tags`, but it is **forbidden** to use `#entry` or `#entryNNN`. These reserved tags appear **only** within real ENTRY files.                                                                                                                                                                                                                                                                                                                                                                  |
 |     H21 | LLM outputs are either `ENTRY_NNN.md` or `BLOCK.md` format. `BLOCK.md` outputs have a maximum of 25,000 characters. Every output must include the full prompt verbatim in its respective section. `BLOCK.md` outputs have no numbering.                                                                                                                                                                                                                                                                                                      |
 |     H22 | Every LLM reply — regardless of type (BLOCK, ENTRY, INTERACTION) — must include all of the following tags exactly once: `#berkano`, `#berkanoprotocol`, `#ᛒ`.<br><br>  <br><br>• ENTRY_NNN.md and BLOCK.md: include these tags in the metadata **Tags:** line (in addition to any topical tags).  <br><br>• INTERACTION (LLM Response): place these tags **after the glyph line** at the very end of the reply.<br><br>  <br><br>Non-compliance: Missing any of the three tags, wrong placement, or duplicates → `[CHECK]` fails the output. |
+|     H23 | All INTERACTION-type outputs must follow **INTERACTION.md** format: begin with `Prompt:` containing the exact, verbatim user input (no paraphrasing), followed by `Output:` with a concise answer, and end with `Glyph:` on its own line. After the glyph, append exactly once the three required tags from H22 (`#berkano #berkanoprotocol #ᛒ`). No metadata header is used in INTERACTION outputs, and tags must not be duplicated elsewhere in the reply.                                                                                 |
 
 ---
 
@@ -784,12 +785,12 @@ It ensures that all fossilized records, freeform exchanges, and system replies a
 
 ### 12.4 Output Types
 
-| Type               | Description                                                                                                      | Metadata Placement                     | Glyph & Tags Placement                                                                 |
-|--------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------|----------------------------------------------------------------------------------------|
-| **ENTRY_NNN.md**   | Full Logic Scaffold — numbered fossilized record with metadata, analysis, operator prompt, ELI5, and LLM Logic. Used for permanent, auditable events. | At top of file before glyph.            | Glyph ᛒ after metadata block; tags include #entry and #entryNNN plus topical tags.     |
-| **BLOCK.md**       | Short Logic Block — one prompt → one output fossil with fixed sections (Prompt / Output / Glyph). No numbering.  | At top of file before glyph.            | Glyph ᛒ after [GLYPH] section; no #entry or #entryNNN.                                 |
-| **INTERACTION / LLM Response** | Freeform exchange — untemplated, dynamic Q&A or reasoning steps. May be iterative. Not fossil-worthy.           | No metadata block.                       | Glyph ᛒ at end of output followed by topical tags (no #entry or #entryNNN).            |
-| **OUTPUT**         | Any structured reply using a standard template (BLOCK.md, ENTRY_NNN.md).                                         | As per subtype rules.                    | As per subtype rules.                                                                  |
+| Type                           | Description                                                                                                                                           | Metadata Placement           | Glyph & Tags Placement                                                             |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------------------------------------------------------------- |
+| **ENTRY_NNN.md**               | Full Logic Scaffold — numbered fossilized record with metadata, analysis, operator prompt, ELI5, and LLM Logic. Used for permanent, auditable events. | At top of file before glyph. | Glyph ᛒ after metadata block; tags include #entry and #entryNNN plus topical tags. |
+| **BLOCK.md**                   | Short Logic Block — one prompt → one output fossil with fixed sections (Prompt / Output / Glyph). No numbering.                                       | At top of file before glyph. | Glyph ᛒ after [GLYPH] section; no #entry or #entryNNN.                             |
+| **INTERACTION / LLM Response** | Freeform exchange, dynamic Q&A or reasoning steps. May be iterative. Not fossil-worthy. Template (INTERACTION.md)                                     | No metadata.                 | Glyph ᛒ at end of output followed by topical tags (no #entry or #entryNNN).        |
+| **OUTPUT**                     | Any structured reply using a standard template (BLOCK.md, ENTRY_NNN.md).                                                                              | As per subtype rules.        | As per subtype rules.                                                              |
 
 ---
 
