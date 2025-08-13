@@ -1,8 +1,12 @@
-[INTERACTION]  
+# **[INTERACTION]**  
 
-Prompt: <verbatim>  
+## Prompt: 
 
-Reply: <concise answer>  
+> [verbatim]  
+
+## Reply:
+
+> [concise answer]
 
 Glyph: ᛒ  
 
