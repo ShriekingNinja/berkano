@@ -3,9 +3,9 @@
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz  
 **Version:** SCS 2.4.2  
-**Tags:** #taxonomy #roles #definitions #output #memory #entry #block  #berkano #berkanoprotocol #ᛒ 
+**Tags:** #taxonomy #roles #definitions #output #memory #berkano #entry #block  
 
-ᛒ: bkn-25-b7
+ᛒ: bkn-25-b6
 
 ---
 

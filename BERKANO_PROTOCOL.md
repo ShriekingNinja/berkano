@@ -4,7 +4,7 @@
 **Status:** Locked · Core Protocol  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b7
+ᛒ: bkn-25-b8
 
 ---
 
@@ -14,7 +14,7 @@ The Berkano Protocol is a cognitive audit protocol for AI systems. It defines st
 This document outlines the purpose, logic, and implementation of Berkano across compliant systems.
 
 - Protocol: **Berkano (ᛒ)**  
-- Version: **bkn-25-b7*
+- Version: **bkn-25-b8**
 - Author: **Rodrigo Vaz**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
@@ -745,6 +745,7 @@ They aim to be **correct, traceable, and recursive-proof**.
 |     H21 | LLM outputs are either `ENTRY_NNN.md` or `BLOCK.md` format. `BLOCK.md` outputs have a maximum of 25,000 characters. Every output must include the full prompt verbatim in its respective section. `BLOCK.md` outputs have no numbering.                                                                                                                                                                                                                                                                                                      |
 |     H22 | Every LLM reply — regardless of type (BLOCK, ENTRY, INTERACTION) — must include all of the following tags exactly once: `#berkano`, `#berkanoprotocol`, `#ᛒ`.<br><br>  <br><br>• ENTRY_NNN.md and BLOCK.md: include these tags in the metadata **Tags:** line (in addition to any topical tags).  <br><br>• INTERACTION (LLM Response): place these tags **after the glyph line** at the very end of the reply.<br><br>  <br><br>Non-compliance: Missing any of the three tags, wrong placement, or duplicates → `[CHECK]` fails the output. |
 |     H23 | All INTERACTION-type outputs must follow **INTERACTION.md** format: begin with `Prompt:` containing the exact, verbatim user input (no paraphrasing), followed by `Output:` with a concise answer, and end with `Glyph:` on its own line. After the glyph, append exactly once the three required tags from H22 (`#berkano #berkanoprotocol #ᛒ`). No metadata header is used in INTERACTION outputs, and tags must not be duplicated elsewhere in the reply.                                                                                 |
+|     H24 | HARDRULE that enforces all [VERIFY].websearch() LLM replies must pass the full module chain before public release.                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ---
 
