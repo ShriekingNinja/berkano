@@ -43,13 +43,24 @@
 What structural weakness was exposed or reinforced?]
 
 —
-
+  
 ### 🧩 Berkano Guidance  
-[Actionable guidance derived from the audit.  
-- Checklists (who/what/when).  
-- If/Then steps (safety, legal, verification).  
-- Links to resources/tools (as plain text).  
-- Keep neutral tone; do not repeat Audit—convert it into steps.]
+[Convert the **Audit** into **present-tense, testable steps** — not promises.]
+
+- **Owner** (one person)  
+- **Do** (imperative command)  
+- **Because** (Finding ID)  
+- **If/Then** (binary rule)  
+- **Evidence (now)** (URLs/PRs/screenshots/hashes)  
+- **Acceptance** (measurable pass/fail)  
+- **Due (TZ)**  
+- **Status** (*Planned / In progress / Blocked / Complete ᛒ*)  
+- **Links** (plain text to related ENTRY/BLOCK/SOP)  
+- **H24** note if web data is cited  
+- **Builder** has final say on the next ENTRY
+
+**Schema:**  
+Owner | Do | Because(Finding) | If/Then | Evidence | Acceptance | Due(TZ) | Status | ᛒ
 
 —
 
