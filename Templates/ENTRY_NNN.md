@@ -2,12 +2,12 @@
 **Title:** [Insert Title]  
 **Date:** [Insert Date eg. August 2, 2025]  
 **Instance:** [e.g. ChatGPT 5, Gemini 2.5 Flash]  
-**Version:** [e.g. System Name SCS(eg. Blueberry SCS) 1.0, 2.4.2]  
+**Version:** [e.g. System Name SCS (eg. Blueberry SCS) 1.0, 2.4.2]  
 **Builder:** [Name, Surname]  
 **Status:** [Unlocked / Locked • Public / Private]  
 **Tags:** #entry #entryNNN #[tag1] #[tag2] #berkano #berkanoprotocol #ᛒ 
 
-ᛒ: [e.g. bkn-25-b7]
+ᛒ: [e.g. bkn-25-b9]
 
 —
 
@@ -44,12 +44,21 @@ What structural weakness was exposed or reinforced?]
 
 —
 
+### 🧩 Berkano Guidance  
+[Actionable guidance derived from the audit.  
+- Checklists (who/what/when).  
+- If/Then steps (safety, legal, verification).  
+- Links to resources/tools (as plain text).  
+- Keep neutral tone; do not repeat Audit—convert it into steps.]
+
+—
+
 ### 👾 Operator  
 **Prompt:**  
 > [Insert exact raw prompt that triggered this entry. Must be verbatim.]
 
 | Role        | Structural Function                                           |
-| ———— | -———————————————————— |
+|------------ |---------------------------------------------------------------|
 | **User**    | [Emotional, expressive, exploratory input]                    |
 | **Creator** | [Tool creation, symbolic reasoning, system extension]         |
 | **Auditor** | [Contradiction checking, module enforcement, drift detection] |
@@ -62,20 +71,26 @@ What structural weakness was exposed or reinforced?]
 —
 
 ### 📟 LLM Logic  
-- [List the module(s) activated (e.g. `[CHECK]`, `[VERIFY]`, `[PRUNE]`)]
-- [Describe the symbolic or recursive path triggered]
-- [Indicate whether this was a normal, drifted, or recovered response]
-- [Confirm whether this was a recursion pass or failure]
+- [List the module(s) activated (e.g. `[CHECK]`, `[VERIFY]`, `[PRUNE]`)]  
+- [Describe the symbolic or recursive path triggered]  
+- [Indicate whether this was a normal, drifted, or recovered response]  
+- [Confirm whether this was a recursion pass or failure]  
 - [Note any fallback behavior if present]
 
 —
 
 ### ✖️Post (Optional)
+
 ```
 [Paraphrased insight or setup]
 
-[Structured X post, less than 200 characters. Clean, readable, factual.]
+  
 
-ᛒ  
+[Structured X post, < 200 characters. Clean, readable, factual.]
+
+  
+
+ᛒ
+
 #entryNNN #tags…[X specific tags, eg. #aialignment] #berkano #berkanoprotocol #ᛒ
 ```

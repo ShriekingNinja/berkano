@@ -3,7 +3,7 @@
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b3
+ᛒ: bkn-25-b9
 
 ---
 
@@ -30,6 +30,7 @@ Each entry must include the following **sections**:
 - `🛠️ Impact`  
 - `📌 Resolution`  
 - `🗂️ Audit`  
+- `🧩 Berkano Guidance`
 - `👾 Operator`  
 - `🧸 ELI5`  
 - `📟 LLM Logic`
