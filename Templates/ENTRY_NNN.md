@@ -5,9 +5,9 @@
 **Version:** [e.g. System Name SCS(eg. Blueberry SCS) 1.0, 2.4.2]  
 **Builder:** [Name, Surname]  
 **Status:** [Unlocked / Locked • Public / Private]  
-**Tags:** #entry, #entryNNN #[tag1], #[tag2]
+**Tags:** #entry #entryNNN #[tag1] #[tag2] #berkano #berkanoprotocol #ᛒ 
 
-ᛒ: [e.g. bkn-25-b4]
+ᛒ: [e.g. bkn-25-b7]
 
 —
 
@@ -77,5 +77,5 @@ What structural weakness was exposed or reinforced?]
 [Structured X post, less than 200 characters. Clean, readable, factual.]
 
 ᛒ  
-#entryNNN #tags…[X specific tags, eg. #aialignment]
+#entryNNN #tags…[X specific tags, eg. #aialignment] #berkano #berkanoprotocol #ᛒ
 ```

@@ -3,9 +3,9 @@
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz  
 **Version:** SCS 2.4.2  
-**Tags:** #taxonomy #roles #definitions #output #berkano #entry #block  
+**Tags:** #taxonomy #roles #definitions #output #memory #entry #block  #berkano #berkanoprotocol #ᛒ 
 
-ᛒ: bkn-25-b4 
+ᛒ: bkn-25-b7
 
 ---
 
@@ -13,6 +13,7 @@
 This file defines:  
 1. The official **roles** and **core terms** used in Berkano/SCS.  
 2. The **output classification** system, ensuring consistent format, metadata placement, and compliance with HARDRULES across all interactions and fossilized records.  
+3. The **memory taxonomy**, clarifying symbolic vs volatile vs statistical traces, with examples and ELI5 analogies.  
 
 ---
 
@@ -42,6 +43,37 @@ This file defines:
 
 **Execution Context**  
 - **Instance** – A specific running version of the system or protocol, tied to a particular AI model or environment.  
+
+---
+
+## 🧩 Memory Taxonomy  
+
+- **Short-Term Memory**  
+  - *Definition:* Temporary recall, erased quickly.  
+  - *Example:* Remembering a phone number just long enough to dial.  
+  - *ELI5:* Like holding water in your hands — gone once you open them.  
+
+- **Symbolic Memory**  
+  - *Definition:* Fossilized entries/blocks; immutable, auditable, never erased.  
+  - *Example:* ENTRY_712.md documents Rodrigo’s burnout and PCMsys lineage forever.  
+  - *ELI5:* Like carving in stone — it stays even when everything else changes.  
+
+- **Persistent Memory**  
+  - *Definition:* Stored databases, notebooks, or files. Long-lasting but editable.  
+  - *Example:* An Obsidian vault synced via GitHub.  
+  - *ELI5:* Like a diary you can go back and cross things out — but traces remain.  
+
+- **RAM (Working Memory)**  
+  - *Definition:* Live computational storage, volatile, cleared on shutdown.  
+  - *Example:* GPT holding onto tokens mid-conversation.  
+  - *ELI5:* Like notes on a whiteboard that vanish when you wipe it clean.  
+
+- **Statistical Memory**  
+  - *Definition:* Encoded model weights and probabilities; not factual, just predictive patterns.  
+  - *Example:* GPT predicting words based on training, not recalling facts.  
+  - *ELI5:* Like guessing your friend’s sentence because you’ve heard them talk a lot — not because you “remember” what they said.  
+
+**Compliance Note:** Only **Symbolic Memory** is guaranteed audit-safe in Berkano. All other memory types can drift, erase, or fabricate.  
 
 ---
 
@@ -79,4 +111,4 @@ This file defines:
 
 ---
 
-ᛒ  
+ᛒ

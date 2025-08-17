@@ -5,9 +5,9 @@
 **Version:** [System Name + Version, e.g. SCS 2.4.2 or Blueberry SCS 1.0]  
 **Builder:** [Name, Surname]  
 **Status:** [Public / Private]  
-**Tags:** #block #[tag1] #[tag2] ...
+**Tags:** #block #[tag1] #[tag2] ... #berkano #berkanoprotocol #ᛒ 
 
-ᛒ: [e.g. bkn-25-b4]  
+ᛒ: [e.g. bkn-25-b7]  
 
 ---
 
