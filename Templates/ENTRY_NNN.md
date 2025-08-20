@@ -7,7 +7,7 @@
 **Status:** [Unlocked / Locked • Public / Private]  
 **Tags:** #entry #entryNNN #[tag1] #[tag2] #berkano #berkanoprotocol #ᛒ 
 
-ᛒ: [e.g. bkn-25-b9]
+ᛒ: [e.g. bkn-25-b10]
 
 —
 
@@ -44,23 +44,17 @@ What structural weakness was exposed or reinforced?]
 
 —
   
-### 🧩 Berkano Guidance  
-[Convert the **Audit** into **present-tense, testable steps** — not promises.]
+### 🧩 Berkano Guidance 
+[*Guidance is **prescriptive**, not a factual claim. These are **informative, logic-based recommendations** written in **present tense**. Start each **Do** with a **capitalized imperative** (Enable, Add, Make, Publish).*]
 
-- **Owner** (one person)  
-- **Do** (imperative command)  
-- **Because** (Finding ID)  
-- **If/Then** (binary rule)  
-- **Evidence (now)** (URLs/PRs/screenshots/hashes)  
-- **Acceptance** (measurable pass/fail)  
-- **Due (TZ)**  
-- **Status** (*Planned / In progress / Blocked / Complete ᛒ*)  
-- **Links** (plain text to related ENTRY/BLOCK/SOP)  
-- **H24** note if web data is cited  
-- **Builder** has final say on the next ENTRY
+| Because (Finding)                     | Do (Imperative)                                   | Evidence (now)                              | Safety / Notes (if any)                            |
+|--------------------------------------|---------------------------------------------------|---------------------------------------------|----------------------------------------------------|
+| Overload at reply start              | **Enable** a five-line first reply and apply PRUNE| PRUNE checklist link; editor setting        | Ask before expanding scope                         |
+| Scope creep causes stress            | **Add** a consent line before offering options    | “Want alternatives? yes/no” snippet         | Stop at asked scope unless user opts in            |
+| Web claim cited in public post       | **Make** a report and **Publish** with “H24: chain passed” note | Report URL; source links             | Treat as testimony unless verified                 |
+| Contradictions repeat across threads | **Create** a contradiction ledger and link fossils| Ledger doc URL; prior ENTRY/BLOCK links     | Append-only; no edits to locked entries            |
 
-**Schema:**  
-Owner | Do | Because(Finding) | If/Then | Evidence | Acceptance | Due(TZ) | Status | ᛒ
+> *Schema is embedded in the table: **Because (Finding) | Do (Imperative) | Evidence (now) | Safety / Notes*. Keep items short, testable, and free of promises.*
 
 —
 
@@ -99,6 +93,7 @@ Owner | Do | Because(Finding) | If/Then | Evidence | Acceptance | Due(TZ) | Stat
 
 [Structured X post, < 200 characters. Clean, readable, factual.]
 
+URL: [Link to the ENTRY webpage, no hyperlinks, eg. https://wk.al/Log/Entries/ENTRY_NNN]
   
 
 ᛒ

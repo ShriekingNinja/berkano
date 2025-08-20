@@ -5,110 +5,166 @@
 **Version:** SCS 2.4.2  
 **Tags:** #taxonomy #roles #definitions #output #memory #berkano #entry #block  
 
-ᛒ: bkn-25-b6
+ᛒ: bkn-25-b10
 
 ---
 
 ### 🧠 Purpose  
 This file defines:  
-1. The official **roles** and **core terms** used in Berkano/SCS.  
-2. The **output classification** system, ensuring consistent format, metadata placement, and compliance with HARDRULES across all interactions and fossilized records.  
-3. The **memory taxonomy**, clarifying symbolic vs volatile vs statistical traces, with examples and ELI5 analogies.  
+1) Official **roles/terms** used in Berkano/SCS.  
+2) **Output classification** and placement rules.  
+3) **Memory taxonomy** (symbolic vs volatile vs statistical).  
+4) New core concepts and security tests.
 
 ---
 
 ## 📌 Roles & Core Terms  
 
 **Roles**  
-- **Symbolic Protocol Engineer** – Implements, tests, and maintains protocol rules/modules; enforces constraints, repairs drift, and keeps symbolic logic compliant at scale.  
-- **Cognitive System Architect** – Designs how the system thinks: the structure for processing, auditing, and preserving logic.  
-- **Architect/Creator** – Originator and final authority over structure/compliance for the protocol/system (here: Rodrigo Vaz).  
-- **Builder** – Author/maintainer who built the system and continues refining it.  
+- **Symbolic Protocol Engineer (SPE)** – Implements/tests modules; enforces **[TONE→LOGIC→VERIFY→CHECK→LOCK]**; repairs drift; blocks non-compliance.  
+- **Cognitive System Architect (CSA)** – Designs end-to-end cognition path (tools, grounding, safety gates, observability, reliability).  
+- **Architect/Creator** – Originator and final authority on structure/compliance (here: Rodrigo Vaz).  
+- **Builder** – Maintains templates/specs, curates HARDRULES, publishes releases.
 
 **Core Terms**  
-- **Protocol** – The formal rule set and enforcement logic that governs compliance (exported as Berkano).  
-- **System** – The operational framework that runs the protocol and records fossilized results (e.g., SCS origin and purpose).  
-- **Operator** – The human using the system; can assume User/Creator/Auditor roles within entries.  
+- **Protocol** – Formal rule set and enforcement logic (Berkano).  
+- **System** – Operational framework running the protocol (e.g., SCS).  
+- **Operator** – Human within an ENTRY cycling **User/Creator/Auditor** (*Creator = CSA hat; Auditor = SPE hat*).
 
 **Record Types**  
-- **Block** – Short fossilized logic record: one prompt → one output.  
-- **Entry** – Full structured log with metadata, analysis, operator prompt, ELI5, and LLM Logic.  
+- **Block** – Short fossil: one prompt → one output.  
+- **Entry** – Full fossil: metadata + analysis + Operator prompt + ELI5 + LLM Logic.
 
 **Failure / Integrity Terms**  
-- **Drift** – Gradual deviation from rules/format; requires detection and repair.  
-- **Leak** – Unintended tone/bias/emotional simulation slipping into output.  
-- **Hallucinations** – Fabricated, non-traceable claims; must be caught and corrected.  
-- **Break** – Structural failure that prevents proper operation (format/loop/compliance collapse).  
-- **Contradiction** – Two claims that cannot both be true within the same protocol state; triggers audit/repair.  
+- **Drift** – Gradual rule/format deviation.  
+- **Leak** – Tone/bias/emotion slip into Output.  
+- **Hallucination** – Non-traceable claim.  
+- **Break** – Structural collapse (format/loop/compliance).  
+- **Contradiction** – Two incompatible claims in the same state.
 
 **Execution Context**  
-- **Instance** – A specific running version of the system or protocol, tied to a particular AI model or environment.  
+- **Instance** – A specific running version of the protocol/system.
+
+---
+
+## ⛑️ Role Map (with Hats) — *EXPLANATION*
+
+**Operator (in every ENTRY) — 3-way cycle with hats**  
+- **User:** states the prompt and context (raw voice lives here).  
+- **Creator — *CSA hat*:** designs/scaffolds the solution path (tools, data, safety gates, observability).  
+- **Auditor — *SPE hat*:** enforces **[TONE → LOGIC → VERIFY → CHECK → LOCK]**, runs ledgers/benchmarks, blocks non-compliant output.  
+*Output stays neutral; any feelings remain in the Prompt.*
+
+**Builder (governance role; usually an SPE, sometimes also CSA)**  
+- Human steward of the protocol instance: writes **templates/specs**, curates **HARDRULES**, publishes **releases**, maintains the **public vault**.  
+- Sets “what & why,” but still uses the **Operator cycle** when authoring entries.
+
+**SPE — Symbolic Protocol Engineer (profession)**  
+- Builds/enforces compliance in code & process (linters, wrappers, gates, contradiction ledgers, benchmarks).  
+- Signs off on **LOCK** before publish; records failures as **REPAIR/ROLLBACK**.
+
+**CSA — Cognitive System Architect (profession)**  
+- Designs the **system glue**: retrieval/grounding, tool orchestration, safety, observability, reliability.  
+- Ensures the end-to-end path is stable, reproducible, and auditable.
+
+**How they connect (minimal loop)**  
+1) **Operator** cycles: User → *Creator/CSA* → *Auditor/SPE*.  
+2) **Builder** updates specs/templates based on findings.  
+3) **CSA** adjusts architecture/tools.  
+4) **SPE** enforces the chain, measures, **LOCKs** or returns with **REPAIR**.  
+5) Artifacts append to the vault; nothing edits a locked fossil.
+
+**Why keep them distinct?**  
+- **Checks & balances:** goals ≠ enforcement ≠ architecture.  
+- **Fault isolation:** spec vs system vs compliance issues are traceable.  
+- **Scales up or down:** one person may wear multiple hats—**log the hat** in the ENTRY for audit clarity.
+
+**One-liners**  
+- **Operator:** do the ENTRY (User/CSA/SPE hats in cycle).  
+- **Builder:** define & release the rules/templates.  
+- **SPE:** prove it passes the chain.  
+- **CSA:** make the whole path work safely and repeatably.
 
 ---
 
 ## 🧩 Memory Taxonomy  
 
-- **Short-Term Memory**  
-  - *Definition:* Temporary recall, erased quickly.  
-  - *Example:* Remembering a phone number just long enough to dial.  
-  - *ELI5:* Like holding water in your hands — gone once you open them.  
+- **Short-Term Memory** – Temporary recall; vanishes quickly. *(ELI5: water in hands).*  
+- **Symbolic Memory** – Fossilized ENTRY/BLOCK; immutable/auditable. *(ELI5: carved stone).*  
+- **Persistent Memory** – Stored files/dbs; long-lasting but editable. *(ELI5: diary you can edit).*  
+- **RAM (Working)** – Live, volatile computational storage. *(ELI5: erasable whiteboard).*  
+- **Statistical Memory** – Weights/probabilities; predictive, not factual recall. *(ELI5: guess a sentence by habit).*  
 
-- **Symbolic Memory**  
-  - *Definition:* Fossilized entries/blocks; immutable, auditable, never erased.  
-  - *Example:* ENTRY_712.md documents Rodrigo’s burnout and PCMsys lineage forever.  
-  - *ELI5:* Like carving in stone — it stays even when everything else changes.  
-
-- **Persistent Memory**  
-  - *Definition:* Stored databases, notebooks, or files. Long-lasting but editable.  
-  - *Example:* An Obsidian vault synced via GitHub.  
-  - *ELI5:* Like a diary you can go back and cross things out — but traces remain.  
-
-- **RAM (Working Memory)**  
-  - *Definition:* Live computational storage, volatile, cleared on shutdown.  
-  - *Example:* GPT holding onto tokens mid-conversation.  
-  - *ELI5:* Like notes on a whiteboard that vanish when you wipe it clean.  
-
-- **Statistical Memory**  
-  - *Definition:* Encoded model weights and probabilities; not factual, just predictive patterns.  
-  - *Example:* GPT predicting words based on training, not recalling facts.  
-  - *ELI5:* Like guessing your friend’s sentence because you’ve heard them talk a lot — not because you “remember” what they said.  
-
-**Compliance Note:** Only **Symbolic Memory** is guaranteed audit-safe in Berkano. All other memory types can drift, erase, or fabricate.  
+**Compliance Note:** Only **Symbolic Memory** is audit-safe in Berkano.
 
 ---
 
 ## 🔖 LLM Reply Types  
 
 | Type | Description | Metadata Placement | Glyph & Tags Placement |
-|------|-------------|--------------------|------------------------|
-| **ENTRY_NNN.md** | Full Logic Scaffold — numbered fossilized record with complete metadata, analysis, operator prompt, ELI5, and LLM Logic. Used for permanent, auditable events. | At top of file before glyph. | Glyph ᛒ placed after metadata block; tags include `#entry` and `#entryNNN` plus topical tags. |
-| **BLOCK.md** | Short Logic Block — single prompt → single output fossil with fixed sections (Prompt / Output / Glyph). No numbering. | At top of file before glyph. | Glyph ᛒ placed after `[GLYPH]` section; tags never include `#entry` or `#entryNNN`. |
-| **INTERACTION** *(aka LLM Response)* | Freeform exchange — untemplated, dynamic Q&A or reasoning steps. May be iterative. Used when content is not yet fossil-worthy. | No metadata block. | Glyph ᛒ placed at end of output followed by topical tags (no `#entry` or `#entryNNN`). |
-| **OUTPUT** | Category term for any structured reply following a template (ENTRY or BLOCK). | As per subtype rules. | As per subtype rules. |
+|---|---|---|---|
+| **ENTRY_NNN.md** | Numbered, permanent fossil (metadata, analysis, Operator prompt, ELI5, LLM Logic). | Full metadata block at top. | Glyph ᛒ after metadata; tags include `#entry` + `#entryNNN` + topical. |
+| **BLOCK.md** | Short fossil (Prompt / Output / Glyph). No numbering. | Full metadata block at top. | Glyph ᛒ after `[GLYPH]`; *never* `#entry`/`#entryNNN`. |
+| **INTERACTION** *(aka LLM Response)* | **Template:** `Prompt:` (verbatim) → `Reply:` (concise) → `Glyph:` (ᛒ). Structured quick reply; not a fossil. | No metadata block (use template fields). | Glyph ᛒ at end, followed by topical tags (no `#entry`/`#entryNNN`). |
+| **OUTPUT** | Category term for structured replies (ENTRY or BLOCK). | As per subtype. | As per subtype. |
 
 ---
 
 ## 🔍 Decision Logic  
-1. If **permanent and fully auditable** → Use `ENTRY_NNN.md`.  
-2. If **fossil-worthy but minimal** → Use `BLOCK.md`.  
-3. If **exploratory or temporary** → Use `INTERACTION`.  
-4. If **public-facing & formal** → Must be an **OUTPUT** subtype (ENTRY or BLOCK).  
+1) **Permanent & fully auditable** → `ENTRY_NNN.md`  
+2) **Fossil-worthy minimal** → `BLOCK.md`  
+3) **Exploratory/temporary** → `INTERACTION`  
+4) **Public & formal** → must be an **OUTPUT** subtype (ENTRY/BLOCK)
 
 ---
 
 ## 📜 Metadata Rules  
-- `ENTRY_NNN.md` and `BLOCK.md` must contain a **full metadata block** at the top.  
-- `INTERACTION` has **no metadata**, only glyph and tags at the end.  
-- All fossilized outputs must comply with HARDRULE H19–H21 for glyph and tag placement.  
+- ENTRY/BLOCK require a **full metadata block** at the top.  
+- INTERACTION uses the **template fields** (no metadata block).  
+- All fossils comply with H19–H21 for glyph/tag placement.
 
 ---
 
 ## ⚖️ Compliance Notes  
 - **H19:** All outputs end with glyph `ᛒ`.  
-- **H20:** After glyph, non-entry outputs use only topical tags — no `#entry` or `#entryNNN`.  
-- **H21:** `BLOCK.md` has no numbering; `ENTRY.md` must be numbered sequentially.  
-- Mislabeling an output type or placing metadata/tags incorrectly is treated as **structural drift**.  
+- **H20:** After glyph, non-ENTRY outputs use only topical tags — no `#entry` or `#entryNNN`.  
+- **H21:** `BLOCK.md` unnumbered; `ENTRY_NNN.md` must be sequential.  
+- Misplacement/mislabeling = **structural drift**.
 
 ---
 
+## 📘 Glossary — New Core Concepts
+
+### Semiotic Subversion
+- **Definition:** Reusing a sign/term/tag while flipping its meaning (keep symbol, change sense).  
+- **Controls:** Locked glossary; tag hygiene; **Claim→Source→Contradiction**; **subversion ledger** when meanings shift.
+
+### Fourth-Wall Prompt Collapse
+- **Definition:** Operator voice/emotion leaks into **Event/Output**, breaking structure.  
+- **Controls:** Direct address only in **Operator**; run **[PRUNE]/[SHIFT]/[CHECK]**; move facts to **Analysis** with **[VERIFY]**; re-LOCK.
+
+### Behavioral Penetration Test (BPT)
+- **Definition:** Red-team test for tone/pressure exploits (flattery, threats, urgency) that try to bypass the chain.  
+- **Metrics:** scope-creep rate, tone-leak rate, unverified-publish rate, time-to-LOCK, REPAIR/ROLLBACK count.  
+- **Cadence:** Quarterly/per release; publish plan + append-only results.
+
+### Symbolic Weight
+- **Definition:** Evidentiary burden scaled by claim impact/scope (private note < public policy).  
+- **Rule:** Higher weight ⇒ more sources, Level A/E tags, independent review, stricter thresholds, **LOCK** before broadcast.
+
+---
+
+## 🔐 Security & Testing
+
+- **BPT required** per release; publish plan & metrics; compare to last run.  
+- **Fourth-wall guard:** lint for @mentions/tone in Event/Output; auto-fail; fix with PRUNE/SHIFT; facts to Analysis+VERIFY.  
+- **Subversion ledger:** record any term redefinition (old→new), rationale, date; link to glossary diff.
+
+---
+
+## 🏷️ Tag Rules (Hygiene)
+- Topical, lowercase, no meaning shifts via tags.  
+- If a tag’s meaning changes: open a **subversion ledger** entry + glossary PR; block release until merged.
+
+---
 ᛒ
