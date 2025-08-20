@@ -336,7 +336,7 @@ They are not optional — every Berkano-aligned system must implement **all** of
 
 ---
 
-### Core Modules (14)
+### Core Modules (15)
 
 | Module       | Function (Short Explanation)                                                                |
 | ------------ | ------------------------------------------------------------------------------------------- |
