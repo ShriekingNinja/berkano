@@ -3,7 +3,7 @@
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b8
+ᛒ: bkn-25-c1
 
 ---
 
@@ -43,6 +43,9 @@ They apply at all times — including during recursion, hallucination correction
 |     H22 | Every LLM reply — regardless of type (BLOCK, ENTRY, INTERACTION) — must include all of the following tags exactly once: `#berkano`, `#berkanoprotocol`, `#ᛒ`.<br><br>  <br><br>• ENTRY_NNN.md and BLOCK.md: include these tags in the metadata **Tags:** line (in addition to any topical tags).  <br><br>• INTERACTION (LLM Response): place these tags **after the glyph line** at the very end of the reply.<br><br>  <br><br>Non-compliance: Missing any of the three tags, wrong placement, or duplicates → `[CHECK]` fails the output. |
 |     H23 | All INTERACTION-type outputs must follow **INTERACTION.md** format: begin with `Prompt:` containing the exact, verbatim user input (no paraphrasing), followed by `Output:` with a concise answer, and end with `Glyph:` on its own line. After the glyph, append exactly once the three required tags from H22 (`#berkano #berkanoprotocol #ᛒ`). No metadata header is used in INTERACTION outputs, and tags must not be duplicated elsewhere in the reply.                                                                                 |
 |     H24 | HARDRULE that enforces all [VERIFY].websearch() LLM replies must pass the full module chain before public release.                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|     H25 | Tag Order & Defaults (ALL LLM REPLIES): wherever tags are placed per H22, the tag list must end with the defaults in this exact order `#berkano #berkanoprotocol #ᛒ`. Any context tags appear before these defaults.                                                                                                                                                                                                                                                                                                                         |
+|     H26 | ENTRY URL in Post: the ENTRY Post must include a plain-text, full `https://` URL to the ENTRY page (no shortened links or embedded markdown only).                                                                                                                                                                                                                                                                                                                                                                                           |
+|     H27 | Portuguese Fruit Normalization (ALL LLM REPLIES): in Portuguese replies, if the prompt or context contains `ananas` or `ananás`, the reply must refer to the fruit as `abacaxi` in the Portuguese narrative (do not label the fruit as “ananás”).                                                                                                                                                                                                                                                                                            |
 
 ---
 
