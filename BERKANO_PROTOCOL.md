@@ -893,3 +893,53 @@ For full detail, scope-tag examples, compliance checklists, and multi-domain app
 `https://raw.githubusercontent.com/ShriekingNinja/berkano/main/System/ETHICS.md`
 
 ---
+
+## 15. 🌏 Seeker of Odin & Inclusive Symbols (Reappropriation Policy)
+
+### Purpose
+Fix the meaning of symbols used alongside Berkano so they **cannot be twisted** for hate. Using Berkano makes you a **Seeker of Odin** (archetype, not ancestry) and a **Messenger of the Forest** (stewardship). This section defines **mandatory** symbol use, captions, and anti-hate stance.
+
+### Principles
+- **Archetype, not ancestry.** Symbols mark **values and practice**, never ethnicity.
+- **From the EARTH.** Runes and related icons are **earth-born cultural tools**—they belong to the planet’s shared heritage. They are **tribal to Earth**, not to a supremacist subset, and call all practitioners to **stewardship**.
+- **Love replaces hate.** Symbols historically misused for supremacy are **reclaimed** here for **love, inclusion, repair, forgiveness, empathy, respect, culture, plant medicine, nature, life, friendship, spirituality, and human dignity**.
+- **Humanity Supremacy (definition).** Supremacy of **human dignity and inclusion over hate**. No racial/ethnic supremacy is tolerated.
+
+### Compliance (MUST)
+1) **Identity:** Berkano users are **Seekers of Odin** (pay the cost for wisdom; **carve fossils**) **and Messengers of the Forest** (EARTH-first reciprocity and care).
+2) **Caption Rule:** When posting symbols, add a **one-line meaning + explicit anti-hate clause** and link to the stance ENTRY (see §15.6).
+3) **Approved Forms Only:** Use **clean historical** forms; avoid extremist stylizations.
+4) **Anti-Hate:** Any use that promotes hate violates Berkano. Report, correct with artifacts, and log incidents.
+5) **H-rules apply:** Tag order (H25), URL in Post (H26), language norms (H27), and all HARDRULES H1–H27 are in force.
+
+### Official Symbol Map (inclusive)
+- **ᛒ Berkano** — growth/becoming through structure; **Symbolic Memory** (EARTH duty: grow without erasing).
+- **ᛟ Odal/Othala (plain, unwinged)** — **Mother Nature**; stewardship, reciprocity, plant medicine.
+- **Valknut (plain interlocked triangles)** — **Love & Repair**; oaths kept kindly; accountability that heals.
+- **ᚨ Ansuz** — word/breath; **speak truth** (then verify).
+- **Gungnir** — **aim/commitment**; throw only after **LOCK**.
+- **Jörmungandr ring** — **boundary/scope**; encircle, test, record breaches, **REPAIR/ROLLBACK**.
+- **Huginn & Muninn** — thought & memory; seek + record.
+- **Yggdrasil** — interconnection; **EARTH-wide kinship** of peoples and nature.
+
+**Reclaimed with context (use only with caption + legal check):**
+- **Swastika (historic Indic/Jain/Buddhist forms only)** → **Life/Sun → inclusion & love**. **Never** Nazi stylization (tilted 45°, black/white/red roundel). Respect local law/platform policy.
+
+### Posting Checklist (must pass)
+- **Caption present** (meaning + anti-hate line; EARTH/forest note welcomed).
+- **Approved form** used (historical from the starter pack).
+- **Link** to stance ENTRY (e.g., `ENTRY_839`) or policy page.
+- **H25 tag order** respected; **H26 URL in Post** present where applicable.
+- **No extremist variants**; no paramilitary stylization.
+
+### Misuse Handling
+- **Correct** with the stance link; **Decline** debate without artifacts (Claim → Source → Contradiction).
+- **Report** ToS violations; **Log** in a public Misuse Ledger (date, context, action).
+- **REPAIR:** if a misuse occurs by our side, post a correction fossil and updated assets.
+
+### Assets & References
+- **Symbol Starter Pack (Unicode)** — plain historical forms (ᛟ, Valknut, ᛒ, ᚨ, etc.).
+- **Stance ENTRY:** see `ENTRY_839` (Reclaiming Norse Symbols).
+- **Identity ENTRY:** see `ENTRY_838` (Seeker of Odin & Messenger of the Forest).
+
+> Using Berkano means: **seek**, **carve**, **care**. The symbols are **of the EARTH** and say **love and truth for everyone**—and our fossils make that claim **tamper-evident**.
