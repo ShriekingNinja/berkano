@@ -23,7 +23,7 @@ This file defines:
 **Roles**  
 - **Symbolic Protocol Engineer (SPE)** – Implements/tests modules; enforces **[TONE→LOGIC→VERIFY→CHECK→LOCK]**; repairs drift; blocks non-compliance.  
 - **Cognitive System Architect (CSA)** – Designs end-to-end cognition path (tools, grounding, safety gates, observability, reliability).  
-- **Architect/Creator** – Originator and final authority on structure/compliance (here: Rodrigo Vaz).  
+- **Architect/Creator** – Originator and final authority on structure/compliance (here: Rodrigo Vaz, Cognitive Hacker).  
 - **Builder** – Maintains templates/specs, curates HARDRULES, publishes releases.
 
 **Core Terms**  

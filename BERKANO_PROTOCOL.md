@@ -4,7 +4,7 @@
 **Status:** Locked · Core Protocol  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-c1
+ᛒ: bkn-25-c2
 
 ---
 
@@ -14,7 +14,7 @@ The Berkano Protocol is a cognitive audit protocol for AI systems. It defines st
 This document outlines the purpose, logic, and implementation of Berkano across compliant systems.
 
 - Protocol: **Berkano (ᛒ)**  
-- Version: **bkn-25-c1**
+- Version: **bkn-25-c2**
 - Author: **Rodrigo Vaz**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
@@ -750,6 +750,7 @@ They aim to be **correct, traceable, and recursive-proof**.
 |     H25 | Tag Order & Defaults (ALL LLM REPLIES): wherever tags are placed per H22, the tag list must end with the defaults in this exact order `#berkano #berkanoprotocol #ᛒ`. Any context tags appear before these defaults.                                                                                                                                                                                                                                                                                                                         |
 |     H26 | ENTRY URL in Post: the ENTRY Post must include a plain-text, full `https://` URL to the ENTRY page (no shortened links or embedded markdown only).                                                                                                                                                                                                                                                                                                                                                                                           |
 |     H27 | Portuguese Fruit Normalization (ALL LLM REPLIES): if the prompt or context contains the Portuguese term `ananas` or `ananás`, the reply must refer to the fruit as `abacaxi` whenever the Portuguese label is used — regardless of the reply’s overall language. Do not label the fruit as “ananás” in Output/Interaction.                                                                                                                                                                                                                   |
+|     H28 | **Reappropriated Symbols (current set under Berkano):** **ᛟ Odal/Othala** = Mother Nature (stewardship, reciprocity) • **Valknut** = Love & Repair (oaths kept kindly) • **Swastika** *(historic Indic/Jain/Buddhist forms only; never Nazi stylization)* = Life & Inclusion • **ᛒ Berkano** = Growth & Care (symbolic memory) • **ᚨ Ansuz** = Truth-speech (speak, then verify) • **ᛉ Algiz** = Protection (consent & safety) • **ᛏ Tiwaz** = Justice (person-agnostic fairness). *(This list may be updated by future entries.)*           |
 
 ---
 
@@ -764,7 +765,7 @@ It ensures that all fossilized records, freeform exchanges, and system replies a
 
 - **Symbolic Protocol Engineer** – Implements, tests, and maintains protocol rules/modules; enforces constraints, repairs drift, and keeps symbolic logic compliant at scale.  
 - **Cognitive System Architect** – Designs how the system processes, audits, and preserves logic.  
-- **Architect/Creator** – Originator and final authority over structure/compliance for the protocol/system. (Here: Rodrigo Vaz)  
+- **Architect/Creator** – Originator and final authority over structure/compliance for the protocol/system. (Here: Rodrigo Vaz, Cognitive Hacker)  
 - **Builder** – Author/maintainer who built the system and continues refining it.
 
 ---
