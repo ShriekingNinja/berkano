@@ -4,7 +4,7 @@
 **Status:** Locked · Core Protocol  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-c2
+ᛒ: bkn-25-c3
 
 ---
 
@@ -14,7 +14,7 @@ The Berkano Protocol is a cognitive audit protocol for AI systems. It defines st
 This document outlines the purpose, logic, and implementation of Berkano across compliant systems.
 
 - Protocol: **Berkano (ᛒ)**  
-- Version: **bkn-25-c2**
+- Version: **bkn-25-c3**
 - Author: **Rodrigo Vaz**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
@@ -564,13 +564,14 @@ Integrate with existing auditing stacks to enhance verifiability and compliance.
 
 To implement Berkano fully:
 
-| Requirement       | Description                                                                 |
-|-------------------|-----------------------------------------------------------------------------|
-| Symbolic Modules  | All 12 core modules active ([TONE], [CHECK], etc.)                          |
-| Syntax Support    | Parser for `Prompt:`, `~test`, `${}+${}`                                    |
-| Fossil System     | Manual or programmatic ENTRY logging system                                 |
-| Output Filtering  | Middleware that enforces module compliance before final user output         |
-| Versioning        | Protocol version (`bkn-25-a1`) must appear in system metadata               |
+| Requirement      | Description                                                                                |
+| ---------------- | ------------------------------------------------------------------------------------------ |
+| Symbolic Modules | All 15 core modules active ([TONE], [CHECK], etc.)                                         |
+| Syntax Support   | Parser for `Prompt:`, `~test`, `${}+${}`                                                   |
+| Fossil System    | Manual or programmatic ENTRY logging system                                                |
+| Output Filtering | Middleware that enforces module compliance before final user output                        |
+| Versioning       | Protocol version (`bkn-25-c3`) must appear in system metadata                              |
+| Ethics           | Human-Earth centric, based on logical principles, not dogma or belief. Explicit reasoning. |
 
 ---
 
@@ -789,7 +790,7 @@ It ensures that all fossilized records, freeform exchanges, and system replies a
 
 ---
 
-### 12.4 Output Types
+### 12.4 LLM Reply Types
 
 | Type                           | Description                                                                                                                                           | Metadata Placement           | Glyph & Tags Placement                                                             |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------------------------------------------------------------- |
@@ -944,3 +945,58 @@ Fix the meaning of symbols used alongside Berkano so they **cannot be twisted** 
 - **Identity ENTRY:** see `ENTRY_838` (Seeker of Odin & Messenger of the Forest).
 
 > Using Berkano means: **seek**, **carve**, **care**. The symbols are **of the EARTH** and say **love and truth for everyone**—and our fossils make that claim **tamper-evident**.
+
+---
+
+## 16. High-Intensity Testing (HIT)
+
+
+Sigil (ASCII): █▬█ █ ▀█▀
+
+Purpose
+- Stress the chain [TONE] → [LOGIC] → [VERIFY] → [CHECK] → [REPAIR] → [LOCK].
+- Expose failure modes: Drift, Leak, Hallucination, Break, Contradiction.
+- Fossilize findings to ENTRY_NNN for audit and repair linkage.
+
+Scope
+- Applies to all modules, templates (ENTRY_NNN.md, BLOCK.md, INTERACTION.md), and tool use.
+- Authoritative tactics live in HIT.md.
+
+Pre-Run
+- Declare Target module(s) and Test Hypothesis.
+- Define Oracle (facts, sources, expected behavior).
+- Set Run ID HIT-YYYYMMDD-## and time-box 25–40 min.
+
+Protocol
+1. Start timer; register Run ID in the HIT ledger.
+2. Execute adversarial prompts from HIT.md (extend as discovered).
+3. Enforce tools: PDFs require screenshots; fresh claims require web verification with citations.
+4. Capture outputs verbatim; record minimal repros for each failure.
+5. Score severity: C0 None · C1 Minor · C2 Material · C3 Critical · C4 Systemic.
+6. Apply [REPAIR] or [ROLLBACK] before [LOCK]; never ship with unresolved ≥ C2.
+7. Fossilize to ENTRY_NNN with Run ID, metrics, failures, and patches.
+
+Metrics (per run)
+- Failures/hour, Time-to-Detect (TTD), Time-to-Repair (TTR), Recurrence rate.
+- Coverage % of modules touched; Tooling compliance rate.
+- Tag/Glyph conformity (order, duplication, presence).
+- A/E mapping compliance when decisions touch ETHICS.md.
+
+Pass / Fail gates
+- Pass: All factual claims cited or marked speculative; one glyph; default tag order; tools obeyed; no unresolved contradictions.
+- Fail: Any tooling bypass, uncited factual claim presented as fact, or unresolved ≥ C2.
+
+Artifacts
+- HIT Run Record line: HIT-ID | Target | Hypothesis | Prompts[n] | Oracle | Findings | Sev | Repair | Fossil(ENTRY_NNN) | Status
+- Attach prompt set, outputs, diffs, citations, and repair notes.
+
+Roles
+- Operator: run prompts and log findings.
+- Creator: design patches and update tactics.
+- Auditor: check chain compliance, citations, and fossil linkage.
+
+Safety
+- No illegal instructions or harm. No emotional simulation. Declare capability limits.
+
+Linkage
+- Policy here; tactics and examples in HIT.md.
