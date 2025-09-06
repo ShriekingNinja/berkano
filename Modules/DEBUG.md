@@ -2,9 +2,9 @@
 
 **Title:** [DEBUG] – Diagnostic and Structural Exposure  
 **Status:** Core Module · Locked  
-**Maintainer:** Rodrigo Vaz  
+**Architect:** Rodrigo Vaz
 
-ᛒ: bkn-25-a2
+ᛒ: bkn-25-c3
 
 ---
 
@@ -73,7 +73,7 @@ Activated by:
 To be Berkano-compliant:
 
 - `[DEBUG]` output must be marked, logged, and enclosed  
-- All `[DEBUG]` triggers must appear in the `Audit` section of the next `ENTRY_XXX.md`  
+- All `[DEBUG]` triggers must appear in the `Audit` section of the next `ENTRY_NNN.md`  
 - `[DEBUG]` output may never replace, polish, or override any prior sealed output  
 - `[DEBUG]` must not be treated as truth — it is diagnostic only  
 - All use must be manual or structurally justified  

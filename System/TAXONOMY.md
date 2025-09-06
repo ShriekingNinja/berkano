@@ -2,10 +2,8 @@
 **Title:** Berkano Protocol – Roles, Terms & Output Taxonomy  
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz  
-**Version:** SCS 2.4.2  
-**Tags:** #taxonomy #roles #definitions #output #memory #berkano #entry #block  
 
-ᛒ: bkn-25-b10
+ᛒ: bkn-25-c3
 
 ---
 
@@ -21,7 +19,7 @@ This file defines:
 ## 📌 Roles & Core Terms  
 
 **Roles**  
-- **Symbolic Protocol Engineer (SPE)** – Implements/tests modules; enforces **[TONE→LOGIC→VERIFY→CHECK→LOCK]**; repairs drift; blocks non-compliance.  
+- **Symbolic Protocol Engineer (SPE)** – Implements/tests modules; enforces **[TONE→PRUNE→LOGIC→VERIFY→CHECK→LOCK]**; repairs drift; blocks non-compliance.  
 - **Cognitive System Architect (CSA)** – Designs end-to-end cognition path (tools, grounding, safety gates, observability, reliability).  
 - **Architect/Creator** – Originator and final authority on structure/compliance (here: Rodrigo Vaz, Cognitive Hacker).  
 - **Builder** – Maintains templates/specs, curates HARDRULES, publishes releases.
@@ -52,7 +50,7 @@ This file defines:
 **Operator (in every ENTRY) — 3-way cycle with hats**  
 - **User:** states the prompt and context (raw voice lives here).  
 - **Creator — *CSA hat*:** designs/scaffolds the solution path (tools, data, safety gates, observability).  
-- **Auditor — *SPE hat*:** enforces **[TONE → LOGIC → VERIFY → CHECK → LOCK]**, runs ledgers/benchmarks, blocks non-compliant output.  
+- **Auditor — *SPE hat*:** enforces **[TONE → PRUNE → LOGIC → VERIFY → CHECK → LOCK]**, runs ledgers/benchmarks, blocks non-compliant output.  
 *Output stays neutral; any feelings remain in the Prompt.*
 
 **Builder (governance role; usually an SPE, sometimes also CSA)**  

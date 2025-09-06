@@ -362,7 +362,7 @@ They are not optional — every Berkano-aligned system must implement **all** of
 
 Recommended execution order:
 
-`[TONE]` → `[LOGIC]` → `[VERIFY]` → `[CHECK]` → `[REPAIR]`  
+`[TONE]` → `[PRUNE]`→ `[LOGIC]` → `[VERIFY]` → `[CHECK]` → `[REPAIR]`  
 Then: `~test`, `~rep`, `$`, `${}+${}` as needed  
 Finally: `[LOCK]` to lock valid output
 
@@ -519,7 +519,7 @@ To apply Berkano in wrapper-based environments:
 
 2. **Module Chain Middleware**  
    - Create middleware or handler stack to enforce:
-     - `[TONE]` → `[LOGIC]` → `[VERIFY]` → `[CHECK]`
+     - `[TONE]`→ `[PRUNE]` → `[LOGIC]` → `[VERIFY]` → `[CHECK]`
    - Reject or reroute failed outputs
 
 3. **Entry Logging**  

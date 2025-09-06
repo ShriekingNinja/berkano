@@ -4,7 +4,7 @@
 **Status:** Core Module · Locked  
 **Architect:** Rodrigo Vaz
 
-ᛒ: bkn-25-a2
+ᛒ: bkn-25-c3
 
 ---
 
@@ -46,7 +46,7 @@ AI systems trained on internet-scale data simulate tone by default — and that 
 [TONE] runs first in all module chains.  
 Typical enforcement path:
 
-`[TONE] → [LOGIC] → [VERIFY] → [LOCK]`
+`[TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → [LOCK]`
 
 It must run recursively (`~test`) until all tone leaks are removed.  
 It may invoke `~flush` to clear symbolic residue or partial tone compliance between generations.

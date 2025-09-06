@@ -3,7 +3,7 @@
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b9
+ᛒ: bkn-25-c3
 
 ---
 

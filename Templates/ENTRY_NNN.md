@@ -7,7 +7,7 @@
 **Status:** [Unlocked / Locked • Public / Private]  
 **Tags:** #entry #entryNNN #[tag1] #[tag2] #berkano #berkanoprotocol #ᛒ 
 
-ᛒ: [e.g. bkn-25-b10]
+ᛒ: [e.g. bkn-25-c3]
 
 —
 

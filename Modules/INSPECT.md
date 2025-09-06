@@ -4,7 +4,7 @@
 **Status:** Core Module · Locked  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b1
+ᛒ: bkn-25-c3
 
 
 ---
@@ -76,7 +76,7 @@ Prompt:
 
 📁 Placement
 
-Location: `/Modules/TEST.md`  
+Location: `/Modules/INSPECT.md`  
 Linked From:
 - `BERKANO_PROTOCOL.md`  
 - `Modules Index`  

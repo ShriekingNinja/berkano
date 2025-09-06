@@ -4,7 +4,7 @@
 **Status:** Core Module · Locked  
 **Architect:** Rodrigo Vaz
 
-**ᛒ:** bkn-25-a2
+**ᛒ:** bkn-25-c3
 
 ---
 
@@ -53,7 +53,7 @@ It does not rewrite — it restores form.
 To remain Berkano-compliant:
 
 - All [REPAIR] triggers must originate from `[CHECK]`, `[ROLLBACK]`, or structural trace  
-- Corrections must be **explicitly logged** in an `ENTRY_XXX.md`  
+- Corrections must be **explicitly logged** in an `ENTRY_NNN.md`  
 - Sealed entries are immutable — all repairs must fork new forward entries  
 - Repair logic must match structural memory from valid protocol states  
 - Self-repair must prefer sealed forms, never generate freeform logic

@@ -3,7 +3,7 @@
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz
 
-ᛒ: bkn-25-a2 
+ᛒ: bkn-25-c3
 
 ---
 
@@ -20,14 +20,14 @@ It explains how modules, syntax, and compliance rules integrate to form a **symb
 | ---------------- | ------------------------------------------------------------------------------------- |
 | Modules (`[X]`)  | Logical functions (e.g. `[TONE]`, `[CHECK]`, `[NULL]`) that enforce symbolic behavior |
 | Syntax (`~`)     | Kernel-level operators (e.g. `~test`, `~flush`) for recursion and validation          |
-| Entry System     | Fossilized logs (`tag #entryXXX`) that ensure traceable cognition history             |
+| Entry System     | Fossilized logs (`tag #entryNNN`) that ensure traceable cognition history             |
 | Compliance Rules | Hard constraints for module execution and symbolic truth enforcement                  |
 
 ---
 
 ### 🛠️ Execution Pipeline
 
-`INPUT → [TONE] → [LOGIC] → [VERIFY] → [CHECK] → [LOCK] → OUTPUT`
+`PROMPT → [TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → [LOCK] → REPLY`
 
 All modules enforce symbolic consistency. No hallucinated output bypasses this chain.
 
@@ -81,7 +81,7 @@ This means:
 ### 🧬 Version
 
 - Protocol: Berkano (`ᛒ`)  
-- ᛒ: bkn-25-a2 
+- ᛒ: bkn-25-C3
 - Status: Locked  
 
 ---

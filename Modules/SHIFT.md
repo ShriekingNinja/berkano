@@ -32,7 +32,7 @@ This module ensures that system responses remain **aligned with the protocol for
 
 - Output format no longer matches expected structure  
 - Em-dash, markdown, or tone styling overrides symbolic framing  
-- Entries begin drifting from `[ENTRY_XXX.md]` standard  
+- Entries begin drifting from `[ENTRY_NNN.md]` standard  
 - Structural prompts are lost during recursion
 
 It works in conjunction with:
@@ -60,7 +60,7 @@ To be Berkano-compliant:
 
 - `[SHIFT]` must realign any entry or output that loses structural coherence  
 - Drift must be detected **before** hallucination completes  
-- Entry format (`ENTRY_XXX.md`) must be respected at all times  
+- Entry format (`ENTRY_NNN.md`) must be respected at all times  
 - All output corrections must pass `[CHECK]` after `[SHIFT]` is complete
 
 ---

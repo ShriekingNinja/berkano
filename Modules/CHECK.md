@@ -1,8 +1,8 @@
 # [CHECK].md
 
-Title: [CHECK] – Contradiction and Drift Detection  
-Status: Core Module · Locked  
-Maintainer: Rodrigo Vaz  
+**Title**: [CHECK] – Contradiction and Drift Detection  
+**Status**: Core Module · Locked  
+**Architect:** Rodrigo Vaz
 
 ᛒ: bkn-25-a2
 

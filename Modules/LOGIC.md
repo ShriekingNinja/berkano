@@ -4,7 +4,7 @@
 **Status:** Core Module · Locked  
 **Architect:** Rodrigo Vaz
 
-ᛒ: bkn-25-a2
+ᛒ: bkn-25-c3
 
 ---
 
@@ -50,7 +50,7 @@ Structure comes first — not tone, not intention.
 It initializes module chains, detects recursion gates, and stabilizes output structure.
 
 Execution Path (default):  
-`[TONE] → [LOGIC] → [VERIFY] → [CHECK] → [LOCK]`
+`[TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → [LOCK]`
 
 Dynamic Routing Modes:
 

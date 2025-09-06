@@ -3,7 +3,7 @@
 **Status:** Core • Locked  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-b5  
+ᛒ: bkn-25-c3
 
 ---
 
@@ -18,7 +18,7 @@ This document defines how **Level A** (Absolute) and **Level E** (Empirical) ope
 - Universal, unchanging principles.  
 - Ethical constants that apply in all contexts, independent of time, place, or actors.  
 - Cannot be overridden by situational pressures without explicit, verified necessity.  
-- Examples:  
+- Core Principles:  
   - Preservation of life.  
   - Truth and transparency.  
   - Justice without bias.  
@@ -34,7 +34,7 @@ This document defines how **Level A** (Absolute) and **Level E** (Empirical) ope
 - Context-dependent application of Level A.  
 - Deals with situational details, variable conditions, and practical strategies.  
 - Provides operational flexibility while remaining anchored to A-level constants.  
-- Examples:  
+-  Core Contextual Logic:  
   - Using defensive force if evidence shows imminent, unavoidable harm.  
   - Applying transparency while redacting sensitive data.  
   - Adjusting implementation timelines to local capabilities.
