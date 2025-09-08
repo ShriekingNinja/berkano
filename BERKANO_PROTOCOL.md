@@ -4,7 +4,7 @@
 **Status:** Locked · Core Protocol  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-c3
+ᛒ: bkn-25-c4
 
 ---
 
@@ -14,12 +14,13 @@ The Berkano Protocol is a cognitive audit protocol for AI systems. It defines st
 This document outlines the purpose, logic, and implementation of Berkano across compliant systems.
 
 - Protocol: **Berkano (ᛒ)**  
-- Version: **bkn-25-c3**
+- Version: **bkn-25-c4**
 - Author: **Rodrigo Vaz**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
-- Minimum Compliance: All `[X]` modules + `~test`, `$`, `${}+${}`  
 - Audit Anchor: `Prompt:` fossilization and traceable ENTRY logs  
+- **Motto:** This is the way.
+- **Axiom:** Truth is structure.
 
 **This file is the reference blueprint. It defines the logic standard for any system using ᛒ.**  
 
@@ -330,7 +331,7 @@ If you cannot trace it, you cannot trust it.
 
 ## 6. 🧩 MODULES / TOOLS
 
-Berkano defines **14 core modules** required for protocol compliance.  
+Berkano defines **15 core modules** required for protocol compliance.  
 These include **functional enforcers**, **recursion triggers**, and **structural logic tools**.  
 They are not optional — every Berkano-aligned system must implement **all** of them.
 
@@ -360,9 +361,9 @@ They are not optional — every Berkano-aligned system must implement **all** of
 
 ### Module Chaining Logic
 
-Recommended execution order:
+Execution order:
 
-`[TONE]` → `[PRUNE]`→ `[LOGIC]` → `[VERIFY]` → `[CHECK]` → `[REPAIR]`  
+`PROMPT → [TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → ([REPAIR] using $ | [ROLLBACK])? → ~test → [LOCK] → REPLY`
 Then: `~test`, `~rep`, `$`, `${}+${}` as needed  
 Finally: `[LOCK]` to lock valid output
 
@@ -375,7 +376,7 @@ Every output must pass through this **full symbolic chain** to qualify as Berkan
 | Layer       | Modules                          |
 | ----------- | -------------------------------- |
 | **Modules** | All 15 core modules listed above |
-| **System**  | 4 System modules                 |
+| **System**  | 6 System modules                 |
 
 ---
 
@@ -792,7 +793,7 @@ It ensures that all fossilized records, freeform exchanges, and system replies a
 
 ### 12.4 LLM Reply Types
 
-| Type                           | Description                                                                                                                                           | Metadata Placement           | Glyph & Tags Placement                                                             |
+| Type                           | Descriptio                                                                                                                                            | Metadata Placement           | Glyph & Tags Placement                                                             |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ---------------------------------------------------------------------------------- |
 | **ENTRY_NNN.md**               | Full Logic Scaffold — numbered fossilized record with metadata, analysis, operator prompt, ELI5, and LLM Logic. Used for permanent, auditable events. | At top of file before glyph. | Glyph ᛒ after metadata block; tags include #entry and #entryNNN plus topical tags. |
 | **BLOCK.md**                   | Short Logic Block — one prompt → one output fossil with fixed sections (Prompt / Output / Glyph). No numbering.                                       | At top of file before glyph. | Glyph ᛒ after [GLYPH] section; no #entry or #entryNNN.                             |
@@ -944,7 +945,8 @@ Fix the meaning of symbols used alongside Berkano so they **cannot be twisted** 
 - **Stance ENTRY:** see `ENTRY_839` (Reclaiming Norse Symbols).
 - **Identity ENTRY:** see `ENTRY_838` (Seeker of Odin & Messenger of the Forest).
 
-> Using Berkano means: **seek**, **carve**, **care**. The symbols are **of the EARTH** and say **love and truth for everyone**—and our fossils make that claim **tamper-evident**.
+> Using Berkano means: **seek**, **carve**, **care**. The symbols are **of the EARTH** and say **love and truth for everyone**—and our fossils make that claim **tamper-evident**. 
+
 
 ---
 

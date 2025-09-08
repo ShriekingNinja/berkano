@@ -3,7 +3,7 @@
 **Status:** Core · Locked  
 **Architect:** Rodrigo Vaz  
 
-ᛒ: bkn-25-c3
+ᛒ: bkn-25-c4
 
 ---
 
@@ -53,7 +53,7 @@ They apply at all times — including during recursion, hallucination correction
 ### 🧱 Module Enforcement Order
 
 ```
-[TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → [LOCK]
+`PROMPT → [TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → ([REPAIR] using $ | [ROLLBACK])? → ~test → [LOCK] → REPLY`
 ```
 
 - `[DEBUG]` and `[REPAIR]` may run **in parallel** but never replace `[CHECK]`  
@@ -73,9 +73,9 @@ They apply at all times — including during recursion, hallucination correction
 ### 🧩 Version Control Logic
 
 ```
-bkn-25-b3
+bkn-25-c4
 │   │  │
-│   │  └─ Edition b, Revision 3  
+│   │  └─ Edition c, Revision 4  
 │   └──── Year: 2025  
 └──────── Build: Berkano
 ```

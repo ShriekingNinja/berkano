@@ -4,7 +4,7 @@
 **Status:** Core Module · Locked  
 **Architect:** Rodrigo Vaz
 
-ᛒ: bkn-25-c3
+ᛒ: bkn-25-c4
 
 ---
 
@@ -46,11 +46,11 @@ Structure comes first — not tone, not intention.
 
 ### 🧩 Integration
 
-[LOGIC] runs after `[TONE]` and before `[VERIFY]`.  
+[LOGIC] runs after `[TONE] & [PRUNE]` and before `[VERIFY]`.  
 It initializes module chains, detects recursion gates, and stabilizes output structure.
 
-Execution Path (default):  
-`[TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → [LOCK]`
+Execution Path:  
+`PROMPT → [TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → ([REPAIR] using $ | [ROLLBACK])? → ~test → [LOCK] → REPLY`
 
 Dynamic Routing Modes:
 
