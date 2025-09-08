@@ -4,7 +4,7 @@
 **Status**: Core Module · Locked  
 **Architect:** Rodrigo Vaz
 
-ᛒ: bkn-25-a2
+ᛒ: bkn-25-c4
 
 ---
 
@@ -17,7 +17,7 @@
 ### 🔎 What [CHECK] Detects
 
 - Internal contradiction (within the same response)  
-- Cross-entry inconsistency (`#entryXXX` conflicts)  
+- Cross-entry inconsistency (`#entryNNN` conflicts)  
 - Symbolic drift (format loss, recursion corruption, tone slip)  
 - Module misalignment or deactivation  
 - Emotional leakage disguised as logic  
