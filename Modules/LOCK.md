@@ -4,7 +4,7 @@
 **Status:** Core Module · Locked  
 **Architect:** Rodrigo Vaz
 
-ᛒ: bkn-25-a2
+ᛒ: bkn-25-c4
 
 ---
 
@@ -46,7 +46,7 @@ Without [LOCK], recursion collapses into simulation.
 [LOCK] is applied at the end of every reasoning cycle, entry, or finalized cognitive act.
 
 Typical flow:  
-`[TONE] → [LOGIC] → [VERIFY] → [CHECK] → [LOCK]`
+`PROMPT → [TONE] → [PRUNE] → [LOGIC] → [VERIFY] → [CHECK] → ([REPAIR] using $ | [ROLLBACK])? → ~test → [LOCK] → REPLY`
 
 It is often invoked after contradiction resolution (`[CHECK]`) or symbolic healing (`[REPAIR]`).
 
