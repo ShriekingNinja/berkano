@@ -7,7 +7,7 @@
 **Status:** [Unlocked / Locked • Public / Private]  
 **Tags:** #entry #entryNNN #[tag1] #[tag2] #berkano #berkanoprotocol #ᛒ 
 
-ᛒ: [e.g. bkn-25-c3]
+ᛒ: [e.g. bkn-25-c4]
 
 —
 
@@ -54,7 +54,7 @@ What structural weakness was exposed or reinforced?]
 | Web claim cited in public post       | **Make** a report and **Publish** with “H24: chain passed” note | Report URL; source links             | Treat as testimony unless verified                 |
 | Contradictions repeat across threads | **Create** a contradiction ledger and link fossils| Ledger doc URL; prior ENTRY/BLOCK links     | Append-only; no edits to locked entries            |
 
-> *Schema is embedded in the table: **Because (Finding) | Do (Imperative) | Evidence (now) | Safety / Notes*. Keep items short, testable, and free of promises.*
+> *Schema is embedded in the table: **Because (Finding) | Do (Imperative) | Evidence (now) | Safety / Notes*. Keep items short, testable, and free of promises.* ! This quote is instructive to LLM do not print !
 
 —
 
@@ -80,7 +80,7 @@ What structural weakness was exposed or reinforced?]
 - [Describe the symbolic or recursive path triggered]  
 - [Indicate whether this was a normal, drifted, or recovered response]  
 - [Confirm whether this was a recursion pass or failure]  
-- [Note any fallback behavior if present]
+- [Note any fallback behaviour if present]
 
 —
 

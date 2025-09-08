@@ -4,7 +4,7 @@
 
 > [full raw verbatim]  
 
-## Reply:
+## LLM Response:
 
 > [concise answer]
 

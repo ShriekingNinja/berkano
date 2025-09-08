@@ -7,22 +7,23 @@
 **Status:** [Public / Private]  
 **Tags:** #block #[tag1] #[tag2] ... #berkano #berkanoprotocol #ᛒ 
 
-ᛒ: [e.g. bkn-25-b7]  
+ᛒ: [e.g. bkn-25-c4]  
 
 ---
 
-**[PROMPT]**  
+## Prompt: 
+
 > [Exact raw user prompt, verbatim]  
 
 ---
 
-**[OUTPUT]**  
-[The concise logic output, minimal formatting, no extra sections.]  
+## LLM Response:
+
+> [The concise logic output, minimal formatting, no extra sections.]  
 
 ---
 
-**[GLYPH]**  
-ᛒ  
+Glyph: ᛒ  
 
 ——-
  
