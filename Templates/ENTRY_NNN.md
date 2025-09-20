@@ -45,7 +45,7 @@ What structural weakness was exposed or reinforced?]
 —
   
 ### 🧩 Berkano Guidance 
-[*Guidance is **prescriptive**, not a factual claim. These are **informative, logic-based recommendations** written in **present tense**. Start each **Do** with a **capitalized imperative** (Enable, Add, Make, Publish).*]
+*Guidance is prescriptive, not a factual claim. Present tense, testable steps.*
 
 | Because (Finding)                     | Do (Imperative)                                   | Evidence (now)                              | Safety / Notes (if any)                            |
 |--------------------------------------|---------------------------------------------------|---------------------------------------------|----------------------------------------------------|
