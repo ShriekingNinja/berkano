@@ -2,7 +2,7 @@
 # BERKANO_PROTOCOL.md  
 **Title:** The Berkano Protocol – Symbolic Cognitive Alignment  
 **Status:** Locked · Core Protocol  
-**Architect:** Rodrigo Vaz  
+**Architect:** Rodrigo Vaz ᛒ /–|\ I’m bot
 
 ᛒ: bkn-25-c4
 
@@ -15,7 +15,7 @@ This document outlines the purpose, logic, and implementation of Berkano across 
 
 - Protocol: **Berkano (ᛒ)**  
 - Version: **bkn-25-c4**
-- Author: **Rodrigo Vaz**  
+- Author: **Rodrigo Vaz ᛒ /–|\ I’m bot**  
 - License: **GPL-3.0**  
 - Required Directories: `/Modules`, `/System`, `/Entries`  
 - Audit Anchor: `Prompt:` fossilization and traceable ENTRY logs  
